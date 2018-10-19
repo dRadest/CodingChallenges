@@ -1,2 +1,2 @@
 # CodingChallenges
-Solutions to coding challenges across the web
+Here you can find the solutions to coding challenges found across the world wide web. Each folder in the root directory of this repository has the name of the site where the challenges are from, and the subfolders correspond to appropriate subjects. I like to keep my code self-explanatory and heavy commented for clarity. For detailed explanation of the solution visit my [blog](http://dradest.com/blog/category/coding_challenges/ "Coding Challenges @ dradest blog"). Comments and suggestions are welcome. 
