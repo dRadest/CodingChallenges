@@ -34,3 +34,7 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/binary
 ## The Report
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/the-report/problem "TheReport@HR")
+
+## Print Prime Numbers
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/print-prime-numbers/problem "PrimeNumbers@HR")
