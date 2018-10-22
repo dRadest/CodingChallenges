@@ -30,3 +30,7 @@ Link to [blogpost](http://dradest.com/blog/2018/10/22/weather-observation-statio
 ## Binary Tree Nodes
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-1/problem "BTN@HR")
+
+## The Report
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/the-report/problem "TheReport@HR")
