@@ -26,3 +26,7 @@ Link to [blogpost](http://dradest.com/blog/2018/10/22/weather-observation-statio
 * [Query 18](https://www.hackerrank.com/challenges/weather-observation-station-18/problem)
 * [Query 19](https://www.hackerrank.com/challenges/weather-observation-station-19/problem)
 * [Query 20](https://www.hackerrank.com/challenges/weather-observation-station-20/problem)
+
+## Binary Tree Nodes
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-1/problem "BTN@HR")
