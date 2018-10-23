@@ -30,3 +30,8 @@ file: [boxes.c](/boxes.c)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/too-high-boxes/problem "boxes@HR")
 
+## 1D Arrays in C
+file: [1darray.c](/1darray.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem "1darray@HR")
+
