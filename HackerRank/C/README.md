@@ -40,3 +40,27 @@ file: [arrayrev.c](/arrayrev.c)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/reverse-array-c/problem "arrayrev@HR")
 
+## Variadic Functions in C
+file: [variadic.c](/variadic.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/variadic-functions-in-c/problem "variadic@HR")
+
+#### stdarg.h 
+Defines a variable type _va_list_ and three macros: _va_start()_, _va_arg()_ and _va_end()_
+
+* **va_list**
+
+holds the information needed by the three macros
+
+* **va_start()**
+
+`void va_start(va_list ap, last_arg)` initializes _ap_ variable. _last_arg_ is the last required (fixed) argument (before the ellipsis ...)
+
+* **va_arg()**
+
+`type va_arg(va_list ap, type)` retrieves the next argument in the arguments list of type _type_
+
+* **va_end()**
+
+`void va_end(va_list ap)` allows the function with variable arguments which called _va_start()_ to return (else result is undefined) 
+
