@@ -35,3 +35,8 @@ file: [1darray.c](/1darray.c)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/1d-arrays-in-c/problem "1darray@HR")
 
+## Array Reversal
+file: [arrayrev.c](/arrayrev.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/reverse-array-c/problem "arrayrev@HR")
+
