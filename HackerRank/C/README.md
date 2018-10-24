@@ -76,3 +76,22 @@ This is a solution with the implementation of algorithm from [Wikipedia](https:/
 3. Swap the value of a[k] with that of a[l].
 4. Reverse the sequence from a[k + 1] up to and including the final element a[n].
 
+## Sorting Arrays of Strings
+file: [sorting.c](/sorting.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/sorting-array-of-strings/problem "sorting@HR")
+
+Documentation for [strcmp()](http://www.cplusplus.com/reference/cstring/strcmp/), [strchr()](http://www.cplusplus.com/reference/cstring/strchr/) and [strlen()](http://www.cplusplus.com/reference/cstring/strlen/) from [string.h](http://www.cplusplus.com/reference/cstring/) library  
+
+## Querying the Documents
+file: [querying.c](/querying.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/querying-the-document/problem "querying@HR")
+
+Interesting post in discussion section:
+
+> I have never seen C being used for complex parsing before. If you find yourself using quadruple pointers, other than for representing matrices, you're doing something wrong.
+> This is the apotheosis of bad problem design and choice of language. People can learn something useful like function passing, structs, recursion, preprocessing, etc, instead > of digging the ground like a madman.
+
+
+
