@@ -64,3 +64,15 @@ holds the information needed by the three macros
 
 `void va_end(va_list ap)` allows the function with variable arguments which called _va_start()_ to return (else result is undefined) 
 
+## Permutations of Strings
+file: [permutations.c](/permutations.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/permutations-of-strings/problem "permutations@HR")
+
+This is a solution with the implementation of algorithm from [Wikipedia](https://en.wikipedia.org/wiki/Permutation#Generation_in_lexicographic_order):
+
+1. Find the largest index k such that a[k] < a[k + 1]. If no such index exists, the permutation is the last permutation.
+2. Find the largest index l greater than k such that a[k] < a[l].
+3. Swap the value of a[k] with that of a[l].
+4. Reverse the sequence from a[k + 1] up to and including the final element a[n].
+
