@@ -93,5 +93,12 @@ Interesting post in discussion section:
 > I have never seen C being used for complex parsing before. If you find yourself using quadruple pointers, other than for representing matrices, you're doing something wrong.
 > This is the apotheosis of bad problem design and choice of language. People can learn something useful like function passing, structs, recursion, preprocessing, etc, instead > of digging the ground like a madman.
 
+## Post Transition
+file: [post_transition.c](/post_transition.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/post-transition/problem "ptransition@HR")
+
+Documentation for [realloc()](http://www.cplusplus.com/reference/cstdlib/realloc/) of the standard c library [stdlib.h](http://www.cplusplus.com/reference/cstdlib/)
+
 
 
