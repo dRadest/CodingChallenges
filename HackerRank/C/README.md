@@ -76,6 +76,11 @@ This is a solution with the implementation of algorithm from [Wikipedia](https:/
 3. Swap the value of a[k] with that of a[l].
 4. Reverse the sequence from a[k + 1] up to and including the final element a[n].
 
+## Smal Triangles, Large Triangles
+file: [triangle.c](/triangle.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/small-triangles-large-triangles/problem "triangle@HR")
+
 ## Sorting Arrays of Strings
 file: [sorting.c](/sorting.c)
 
