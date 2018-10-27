@@ -24,36 +24,51 @@ struct document {
     int paragraph_count;//denotes number of paragraphs in a document
 };
 
-/****************TODO************************/
+// helper function to add word (data) to the sentece
 void add_word(struct sentence *sen, char *data) {
+	// initialize the word
     struct word *word = malloc(sizeof(struct word));
     word->data = data;
 
+    // resize the sentece data to add the word to it
     sen->data = (struct word *) realloc(sen->data, sizeof(struct word) * (sen->word_count + 1));
     sen->data[sen->word_count] = *word;
     sen->word_count++;
 }
 
-void add_sentence(struct paragraph *par, char *data) {
+// helper function to add sentence (data) to the paragraph
+void add_sentence(struct paragraph* par, char* data) {
+	// offset to keep track of where we are in the sentence
     size_t offs = 0;
+    // lenght of the sentence
     size_t size = strlen(data);
 
+    // initialize sentence
     struct sentence *sen = malloc(sizeof(struct sentence));
     sen->data = NULL;
     sen->word_count = 0;
 
+    // repeat until we reach the end of the sentence
     while (offs < size) {
+    	// pointer to the first occurance of space ' '
         char *s = strchr(data + offs, ' ');
+        // set the len accordingly
         size_t len = s == NULL ? size - offs : s - data - offs;
 
+        // initialize the word
         char *word = malloc((len + 1) * sizeof(char));
+        // set the characters to '\0'
         memset(word, '\0', (len + 1) * sizeof(char));
+        // copy up to len characters from (sentence + offset) to word
         strncpy(word, data + offs, len);
 
+        // add word to the sentence
         add_word(sen, word);
+        // increment offset accordingly
         offs += len + 1;
     }
 
+    // resize the paragraph data field (add sentence)
     par->data = (struct sentence *) realloc(par->data, sizeof(struct sentence) * (par->sentence_count + 1));
     par->data[par->sentence_count] = *sen;
     par->sentence_count++;
@@ -140,7 +155,6 @@ struct sentence kth_sentence_in_mth_paragraph(struct document Doc, int k, int m)
 struct paragraph kth_paragraph(struct document Doc, int k) {
 	return Doc.data[k-1];
 }
-/****************TODO************************/
 
 void print_word(struct word w) {
     printf("%s", w.data);
