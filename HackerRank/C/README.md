@@ -100,5 +100,12 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/post-t
 
 Documentation for [realloc()](http://www.cplusplus.com/reference/cstdlib/realloc/) of the standard c library [stdlib.h](http://www.cplusplus.com/reference/cstdlib/)
 
+## Structuring the Document
+file: [structuring.c](/structuring.c)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/structuring-the-document/problem "structuring@HR")
+
+Documentation for [strlen()](http://www.cplusplus.com/reference/cstring/strlen/), [strchr()](http://www.cplusplus.com/reference/cstring/strchr/), [memset()](http://www.cplusplus.com/reference/cstring/memset/) and [strncpy()](http://www.cplusplus.com/reference/cstring/strncpy/) of the c string library [string.h](http://www.cplusplus.com/reference/cstring/)
+
 
 
