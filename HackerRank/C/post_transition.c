@@ -36,7 +36,7 @@ void print_all_packages(town t) {
     int office_count = t.offices_count;
     post_office* offices = t.offices;
     for(int i=0; i<office_count; i++){
-        printf("\t%d\n:", i);
+        printf("\t%d:\n", i);
         post_office current_office = offices[i];
         int packages_count = current_office.packages_count;
         for(int j=0; j<packages_count; j++){
