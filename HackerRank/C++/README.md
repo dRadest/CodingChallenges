@@ -51,3 +51,9 @@ file: [class_template_specialization.cpp](/class_template_specialization.cpp)
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem "classtemplatespec@HR")
 
 Documentation for static_cast conversion on [cppreference.com](https://en.cppreference.com/w/cpp/language/static_cast) and why use it on [stackoverflow](https://stackoverflow.com/questions/103512/why-use-static-castintx-instead-of-intx)
+
+## Accessing Inherited Functions
+
+file: [accessing_inherited_functions.cpp](/accessing_inherited_functions.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem "aif@HR")
