@@ -26,4 +26,12 @@ file: [class.cpp](/class.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-class/problem "class@HR")
 
-Documentation on [stringstream](http://www.cplusplus.com/reference/sstream/stringstream/ "ss@cplusplus.com")
+Documentation for [stringstream](http://www.cplusplus.com/reference/sstream/stringstream/ "ss@cplusplus.com")
+
+## Box It!
+
+file: [box_it.cpp](/box_it.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/box-it/problem "boxit@HR")
+
+Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm) on C++ overloading
