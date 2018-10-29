@@ -35,3 +35,11 @@ file: [box_it.cpp](/box_it.cpp)
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/box-it/problem "boxit@HR")
 
 Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm) on C++ overloading
+
+## C++ Class Templates
+
+file: [class_templates.cpp](/class_templates.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-class-templates/problem "classtemplates@HR")
+
+Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm) on C++ templates 
