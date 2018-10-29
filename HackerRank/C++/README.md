@@ -69,3 +69,11 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/operat
 file: [overloading_ostream_operator.cpp](/overloading_ostream_operator.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem "ooo@HR")
+
+## Inherited Code
+
+file: [inherited_code.cpp](/inherited_code.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/inherited-code/problem "inherited_code@HR")
+
+TutorialsPoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_exceptions_handling.htm) on exceptions handling
