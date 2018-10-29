@@ -4,6 +4,19 @@ Solutions with blog posts (where suitable)
 
 ## Pointer
 
-file: [pointer.cpp](/pointer.c)
+file: [pointer.cpp](/pointer.cpp)
 
-Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem "pointers@HR") 
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem "pointers@HR")
+
+## Variable Sized Arrays
+
+file: 
+
+Solution using arrays [variable_sized_arrays_arr.cpp](/variable_sized_arrays_arr.cpp)
+
+Solution using vectors [variable_sized_arrays_vec.cpp](/variable_sized_arrays_vec.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/variable-sized-arrays/problem "pointers@HR") 
+
+Documentation on C++ [vector](http://www.cplusplus.com/reference/vector/vector/ "vector@cplusplus.com")
+
