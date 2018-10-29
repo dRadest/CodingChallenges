@@ -63,3 +63,9 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/access
 file: [operator_overloading.cpp](/operator_overloading.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/operator-overloading/problem "op_overload@HR")
+
+## Overloading Ostream Operator
+
+file: [overloading_ostream_operator.cpp](/overloading_ostream_operator.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem "ooo@HR")
