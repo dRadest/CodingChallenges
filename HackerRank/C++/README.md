@@ -57,3 +57,9 @@ Documentation for static_cast conversion on [cppreference.com](https://en.cppref
 file: [accessing_inherited_functions.cpp](/accessing_inherited_functions.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem "aif@HR")
+
+## Operator Overloading
+
+file: [operator_overloading.cpp](/operator_overloading.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/operator-overloading/problem "op_overload@HR")
