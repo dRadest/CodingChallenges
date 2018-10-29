@@ -20,3 +20,10 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/variab
 
 Documentation on C++ [vector](http://www.cplusplus.com/reference/vector/vector/ "vector@cplusplus.com")
 
+## Class
+
+file: [class.cpp](/class.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-class/problem "class@HR")
+
+Documentation on [stringstream](http://www.cplusplus.com/reference/sstream/stringstream/ "ss@cplusplus.com")
