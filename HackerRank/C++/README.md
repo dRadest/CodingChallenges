@@ -43,3 +43,11 @@ file: [class_templates.cpp](/class_templates.cpp)
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-class-templates/problem "classtemplates@HR")
 
 Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_templates.htm) on C++ templates 
+
+## C++ Class Template Specialization
+
+file: [class_template_specialization.cpp](/class_template_specialization.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem "classtemplatespec@HR")
+
+Documentation for static_cast conversion on [cppreference.com](https://en.cppreference.com/w/cpp/language/static_cast) and why use it on [stackoverflow](https://stackoverflow.com/questions/103512/why-use-static-castintx-instead-of-intx)
