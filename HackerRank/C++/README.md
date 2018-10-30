@@ -90,12 +90,18 @@ file: [attending_workshops.cpp](/attending_workshops.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/attending-workshops/problem "attending_workshops@HR")
 
-## Virtual Functions
+## Virtual Function
 
 file: [virtual_functions.cpp](/virtual_functions.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/virtual-functions/problem "virtual_functions@HR")
-
+s
 Virtual Functions and Runtime Polymorphism in C++ [article](https://www.geeksforgeeks.org/virtual-functions-and-runtime-polymorphism-in-c-set-1-introduction/) on GeeksforGeeks
 
 Stackoverflow [question](https://stackoverflow.com/questions/2523203/c-header-file-and-function-declaration-ending-in-0) on virtual function declaration `virtual void func() = 0; ` 
+
+## Messages Order
+
+file: [messages_order.cpp](/messages_order.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/messages-order/problem "messages_order@HR")
