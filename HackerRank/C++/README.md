@@ -105,3 +105,9 @@ Stackoverflow [question](https://stackoverflow.com/questions/2523203/c-header-fi
 file: [messages_order.cpp](/messages_order.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/messages-order/problem "messages_order@HR")
+
+## Abstract Classes - Polymorphism
+
+file: [abstract_classes.cpp](/abstract_classes.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem "abstract_classes@HR")
