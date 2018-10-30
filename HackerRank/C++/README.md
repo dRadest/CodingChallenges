@@ -83,3 +83,9 @@ TutorialsPoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_exceptio
 file: [cpp_exception_handling.cpp](/cpp_exception_handling.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-exception-handling/problem "exception_handling@HR")
+
+## Attending Workshops
+
+file: [attending_workshops.cpp](/attending_workshops.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/attending-workshops/problem "attending_workshops@HR")
