@@ -181,3 +181,32 @@ Solution using arrays...
 
        cout << L[m-1][n-1] << endl;
 ```
+
+## C++ Variadics
+
+file: [cpp_variadics.cpp](/cpp_variadics.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-variadics/problem "cpp_variadics@HR")
+
+Parameter pack reference on [cppreference.com](https://en.cppreference.com/w/cpp/language/parameter_pack)
+
+Variadic templates in C++ article on [eli.thegreenplace.net](https://eli.thegreenplace.net/2014/variadic-templates-in-c/)
+
+Post in discussion explaining the code:
+>consider the int 29 = 0b00011101
+
+>this can be seen as 1*2^0 + 0*2^1 + 1*2^2 + 1*2^3 + 1*2^4
+>
+>if you progressively factor out the base of 2, you can write it as
+>
+>1 + 2*( 0 + 2*( 1 + 2*( 1 + 2*( 1 ) ) ) )
+>
+>in his return statement
+>
+>return (reversed_binary_value<b, d...>() << 1) + a;
+>
+>'a' is a bool that is implicitly cast to an int as either 1 or 0. the left shift '<<' by 1 is equiv to multiplying by 2
+>
+>so, the return statement is of the form above, a recurring pattern of 1 + 2*(subprob), 
+>
+>where subprob is itself of form 1 + 2*(subprob).
