@@ -111,3 +111,73 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/messag
 file: [abstract_classes.cpp](/abstract_classes.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem "abstract_classes@HR")
+
+## Magic Spells
+
+file: [magic_spells.cpp](/magic_spells.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/magic-spells/problem "magic_spells@HR")
+
+dynamic_cast [cppreference.com](https://en.cppreference.com/w/cpp/language/dynamic_cast) and examples on [BogoToBogo](https://www.bogotobogo.com/cplusplus/dynamic_cast.php)
+
+Longest Common Subsequence (LCS) tutorial on [GeeksforGeeks](https://www.geeksforgeeks.org/longest-common-subsequence-dp-4/) and [Wikipedia](https://en.wikipedia.org/wiki/Longest_common_subsequence_problem) article.
+
+Solution using vectors...
+```c++
+		string unknownSpell = spell->revealScrollName();
+		string journalEntry = SpellJournal::journal;
+
+		int m = journalEntry.length() + 1;
+		int n = unknownSpell.length() + 1;
+
+		vector < vector<int> > v(m, vector<int>(n));
+
+		for (int f = 1; f<m; f++)
+		{
+			for (int c = 1; c<n; c++)
+			{
+				if (unknownSpell[c - 1] == journalEntry[f - 1])
+					v[f][c] = v[f - 1][c - 1] + 1;
+				else
+				{
+					if (v[f][c - 1] > v[f - 1][c])
+						v[f][c] = v[f][c - 1];
+					else
+						v[f][c] = v[f - 1][c];
+				}
+			}
+		}
+		cout << v[m - 1][n - 1] << endl;
+```
+Solution using arrays...
+```c++
+        string unknownSpell = spell->revealScrollName();
+        string journalEntry = SpellJournal::journal;
+    
+        int m = journalEntry.length() + 1;
+        int n = unknownSpell.length() + 1;
+
+        int L[m][n];
+        int i, j; 
+        
+        for(i=0; i<m; i++) {
+            L[i][0] = 0;
+        }
+        for(j=0; j<n; j++){
+            L[0][j] = 0;
+        }
+
+       for (i=1; i<m; i++) 
+       { 
+         for (j=1; j<n; j++) 
+         { 
+           if (unknownSpell[j-1] == journalEntry[i-1]) 
+             L[i][j] = L[i-1][j-1] + 1; 
+       
+           else 
+             L[i][j] = max(L[i-1][j], L[i][j-1]); 
+         } 
+       } 
+
+       cout << L[m-1][n-1] << endl;
+```
