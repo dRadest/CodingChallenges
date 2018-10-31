@@ -210,3 +210,69 @@ Post in discussion explaining the code:
 >so, the return statement is of the form above, a recurring pattern of 1 + 2*(subprob), 
 >
 >where subprob is itself of form 1 + 2*(subprob).
+
+
+## Bit Array
+
+file: [bit_array.cpp](/bit_array.cpp)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/bitset-1/problem "bit_array@HR")
+
+Solution on [ideon](https://ideone.com/gFQgqT)
+
+Author's comments on discussion:
+>The problem boils down to finding minimal m > 0 and n >= 0 such that a[n + m] = a[n].
+>
+>As pointed out by others Floyd's and Brent's algorithms are nice for this problem. 
+>
+>These algorithms are generic and work for any recurrence a[i] = f(a[i-1]), 
+>
+>ie, they don't make any assumption about f. For the problem at hand, f(x) = p*x + q 
+>
+>and we can buy a lot of time if we use f's mathematical properties. Indeed, one can easily show that
+>
+>a[n] = s * p^n + q * (p^(n-1) + ... + 1) for all n >= 1.
+>
+>The arguments are a bit lengthy for here but to give an idea of the math suppose s > 0 and q = 0 
+>
+>(the case where q > 0 brings some but not much complexity). Then
+>
+>a[n] = s * p^n for all n >= 1.
+>
+>It follows that
+>
+>a[n + m] - a[n] = s * (p^m - 1) * p^n.
+>
+>Consider the case where p is even but not zero. One can find unique integers x and ysuch that 
+>
+>p = x * 2^y and x is odd. Analogously, we can find integers u and v such that s = u * 2^v and u is odd. 
+>
+>Using this we obtain
+>
+>a[m + n] - a[n] = x^n * (p^m - 1) * u * 2^(n * y + v).
+>
+>Since x^n, p^m - 1 and u are odd, the only way for the rhs (and thus for the lhs) 
+>
+>to be zero modulo 2^31 is when n * y + v >= 31. We are looking for the minimal n which implies 
+>
+>n = ceiling((31 - v) / y). We have shown that
+>
+>a[m + n] = a[n] mod 2^31 for all m > 0,
+>
+>that is, the sequence is constant from n onwards. It can also be shown that a[0], ..., a[n] are all distinct. 
+>
+>Therefore, the solution to the problem is min(n + 1, N).
+>
+>When p is odd, the argument is much more complex and relies on a property of the group ((Z/rZ)*, *) 
+>
+>where r=2^k is a power of 2, namely, if p^m = 1 modulo r and m is minimal, >then m divides 2^(k - 1), 
+>
+>ie, m belongs to {1, 2, 4, ..., 2^(k - 1)}.
+>
+>I've implemented my solution and it took 0s to solve all test cases. 
+>
+>For comparison, I've also implemented the Floyd's and Brent's algorithm. 
+>
+>An interesting test case is N = 100000000, s = 1, p = 3 and q = 1 for which the answer is N. 
+>
+>My solution took 0.0s, Floyd's took 2.5s and Brent took 16.0s.
