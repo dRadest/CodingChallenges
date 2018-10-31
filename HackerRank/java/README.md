@@ -68,3 +68,26 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-s
 file: [StdinOutTwo.java](/StdinOutTwo.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-stdin-stdout/problem "stdinouttwo@HR")
+
+### Java Output Formatting
+
+file: [OutputFormat.java](/OutputFormat.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-output-formatting/problem "OutputFormat@HR")
+
+Formatting Numeric Print Output Java [tutorial](https://docs.oracle.com/javase/tutorial/java/data/numberformat.html)
+
+used in the solution: 
+
+`printf("%-15s", "Hello")`  -----> "Hello__________" _left justified, minimum 15 characters_
+
+`printf("%03d", 12)` -----> "012" _three characters in width, with leading zeroes as necessary_
+
+`printf` [cheatsheet](https://alvinalexander.com/programming/printf-format-cheat-sheet)
+
+### Java End-of-file
+
+file: [EndOfFile.java](/EndOfFile.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-end-of-file/problem "EndOfFile@HR")
+
