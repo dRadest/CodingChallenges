@@ -91,3 +91,9 @@ file: [EndOfFile.java](/EndOfFile.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-end-of-file/problem "EndOfFile@HR")
 
+### Java Currency Formatter
+
+file: [CurrencyFormatter.java](/CurrencyFormatter.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-currency-formatter/problem "CurrencyFormatter@HR")
+
