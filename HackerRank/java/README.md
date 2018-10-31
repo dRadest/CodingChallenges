@@ -30,3 +30,35 @@ _example:_ HelloWorld.java
 _compile:_ `javac HelloWorld.java`
 
 _run:_ `java HelloWorld`
+
+# Read input from _stdin_ / Write ouput to _stdout_
+
+## Using [Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
+
+```java
+Scanner scanner = new Scanner(System.in);
+String myString = scanner.next();
+int myInt = scanner.nextInt();
+scanner.close();
+
+System.out.println("myString is: " + myString);
+System.out.println("myInt is: " + myInt);
+```
+
+## Using [BufferedReader](https://docs.oracle.com/javase/8/docs/api/java/io/BufferedReader.html)
+
+```java
+BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+String input = reader.readLine();
+int a = Integer.parseInt(input);
+reader.close();
+
+System.out.println("input is: " + input);
+System.out.println("a is: " + a);
+```
+
+### Java Stdin and Stdout I
+
+file: [StdinOutOne.java](/StdinOutOne.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem "stdinoutone@HR")
