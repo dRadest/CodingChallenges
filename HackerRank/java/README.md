@@ -123,3 +123,11 @@ _solution:_ `"^[a-zA-Z]\\w{7,29}$"`
 
 [String.matches()](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#matches-java.lang.String-) used to check if string matches regular expression
 
+### Pattern Syntax Checker
+
+file: [PatternSyntaxChecker.java](/PatternSyntaxChecker.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem "PatternSyntaxChecker@HR")
+
+[Pattern.compile()](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html#compile(java.lang.String)) SE7
+
