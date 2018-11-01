@@ -170,5 +170,48 @@ Abstract Classes and Methods ORacle [tutorial](https://docs.oracle.com/javase/tu
 
 Java Abstraction TutorialsPoint [article](https://www.tutorialspoint.com/java/java_abstraction.htm)
 
+### Java Interface
+
+file: [Interface.java](/Interface.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-interface/problem "Interface@HR")
+
+_Explanation:_ class without a modifier (keyword) is _package private_ (Controling Access to Members of a Class Oracle [tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/accesscontrol.html)) and all methods of an interface are _public_ (Abstract Classes Compared to Interfaces [tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html) and Interfaces [tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/createinterface.html) on docs.oracle.com) that's why method divisor_sum() in MyCalculator class has to be declared public to avoid assigning weaker access priviliges
+
+### Java Varargs - Simple Addition
+
+file: [Varargs.java](/Varargs.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/simple-addition-varargs/problem "Varargs@HR")
+
+### Java Reflection Attributes
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-reflection-attributes/problem "Reflection@HR")
+
+Discovering Class Members Oracle [tutorial](https://docs.oracle.com/javase/tutorial/reflect/class/classMembers.html)
+
+```java
+try{
+	// get the class associated with "Student"
+    Class student = Class.forName("Student");
+    // get all the declared methods in Student class
+    Method[] methods = student.getDeclaredMethods();
+
+    // traverse through each method 
+    ArrayList<String> methodList = new ArrayList<>();
+    for(Method method : methods){
+    	// add its name to the method list
+        methodList.add(method.getName());
+    }
+    // sort the method list in ascending order (default)
+    Collections.sort(methodList);
+    // print each method name on a new line
+    for(String name: methodList){
+        System.out.println(name);
+    }
+}catch(Exception e){}
+```
+
+Documentation for [Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html) and [Method](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html) SE8
 
 
