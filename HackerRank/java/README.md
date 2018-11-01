@@ -160,5 +160,15 @@ Generic methods Oracle [tutorial](https://docs.oracle.com/javase/tutorial/extra/
 
 Java Generics TutorialsPoint [article](https://www.tutorialspoint.com/java/java_generics.htm)
 
+### Java Abstract Class
+
+file: [AbstractClass.java](/AbstractClass.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-abstract-class/problem "AbstractClass@HR")
+
+Abstract Classes and Methods ORacle [tutorial](https://docs.oracle.com/javase/tutorial/java/IandI/abstract.html)
+
+Java Abstraction TutorialsPoint [article](https://www.tutorialspoint.com/java/java_abstraction.htm)
+
 
 
