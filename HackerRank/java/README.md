@@ -113,3 +113,13 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-s
 
 Java [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html) class SE8
 
+### Valid Username Regular Expression
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/valid-username-checker/problem "StringRegEx@HR")
+
+_requirements:_ string 8 - 30 characters long (inclusive), has to start with alphabetic, rest alphanumeric 
+
+_solution:_ `"^[a-zA-Z]\\w{7,29}$"`
+
+[String.matches()](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html#matches-java.lang.String-) used to check if string matches regular expression
+
