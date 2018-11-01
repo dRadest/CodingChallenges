@@ -150,3 +150,15 @@ scanner.close();
 [Oracle docs](https://docs.oracle.com/javase/7/docs/api/java/math/BigInteger.html#isProbablePrime%28int%29) and
 [TutorialsPoint article](https://www.tutorialspoint.com/java/math/biginteger_isprobableprime.htm) 
 
+### Java Generics
+
+file: [Generics.java](/Generics.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-generics/problem "Generics@HR")
+
+Generic methods Oracle [tutorial](https://docs.oracle.com/javase/tutorial/extra/generics/methods.html)
+
+Java Generics TutorialsPoint [article](https://www.tutorialspoint.com/java/java_generics.htm)
+
+
+
