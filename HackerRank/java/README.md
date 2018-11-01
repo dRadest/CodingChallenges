@@ -57,6 +57,8 @@ System.out.println("input is: " + input);
 System.out.println("a is: " + a);
 ```
 
+# Solutions
+
 ### Java Stdin and Stdout I
 
 file: [StdinOutOne.java](/StdinOutOne.java)
@@ -105,7 +107,7 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-d
 
 Java [Calendar](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.html) class SE7
 
-### Java Date And Time
+### Java String Tokens
 
 file: [StringTokens.java](/StringTokens.java)
 
@@ -130,4 +132,21 @@ file: [PatternSyntaxChecker.java](/PatternSyntaxChecker.java)
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem "PatternSyntaxChecker@HR")
 
 [Pattern.compile()](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html#compile(java.lang.String)) SE7
+
+### Java Primality Test
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-primality-test/problem "PrimalityTest@HR")
+
+```java
+String n = scanner.nextLine();
+// convert the String to BigInteger using constructor (TODO: handle exceptions)
+BigInteger bign = new BigInteger(n);
+// certainty = 1
+System.out.println((bign.isProbablePrime(1) ? "prime" : "not prime"));
+scanner.close();
+```
+
+`BigInteger.isProbablePrime()`:
+[Oracle docs](https://docs.oracle.com/javase/7/docs/api/java/math/BigInteger.html#isProbablePrime%28int%29) and
+[TutorialsPoint article](https://www.tutorialspoint.com/java/math/biginteger_isprobableprime.htm) 
 
