@@ -214,4 +214,10 @@ try{
 
 Documentation for [Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Class.html) and [Method](https://docs.oracle.com/javase/8/docs/api/java/lang/reflect/Method.html) SE8
 
+### Java Factory Pattern
 
+file: [FactoryPattern.java](/FactoryPattern.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-factory/problem "FactoryPattern@HR")
+
+TutorialsPoint [article](https://www.tutorialspoint.com/design_pattern/factory_pattern.htm) on Factory Pattern
