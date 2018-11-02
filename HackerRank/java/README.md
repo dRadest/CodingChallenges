@@ -303,4 +303,39 @@ Javadocs for [Pattern](https://docs.oracle.com/javase/7/docs/api/java/util/regex
 
 Word Boundary explained on [rexegg.com](http://www.rexegg.com/regex-boundaries.html#wordboundary)
 
+### Tag Content Extractor
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/tag-content-extractor/problem "TagContentExtractor@HR")
+
+_Solution:_
+
+```java
+        Scanner in = new Scanner(System.in);
+	    int testCases = Integer.parseInt(in.nextLine());
+		String regex = "<(.+?)>([^<>]+)</\\1>";
+		Pattern p = Pattern.compile(regex);
+		while(testCases>0){
+	         String line = in.nextLine();
+	         Matcher m = p.matcher(line);
+	         int count = 0;
+	         while(m.find()) {
+	             if (m.group(2).length() !=0) {
+	                 System.out.println(m.group(2));
+	             count++;
+	             }
+	         }
+	         if (count == 0) System.out.println("None");
+	         testCases--;
+	      }
+		in.close();
+```
+
+_Explanation:_
+
+* `(.+?)` matches any character zero or more times in a lazy manner (shortest match)
+
+* `([^<>]+)` matches any character except opening and closing angle brackets zero or more times
+
+* `\\1` matches content of the first capturing group 
+
 
