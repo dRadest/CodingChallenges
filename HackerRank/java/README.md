@@ -137,6 +137,7 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/patter
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-primality-test/problem "PrimalityTest@HR")
 
+_Solution:_
 ```java
 String n = scanner.nextLine();
 // convert the String to BigInteger using constructor (TODO: handle exceptions)
@@ -190,6 +191,7 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-r
 
 Discovering Class Members Oracle [tutorial](https://docs.oracle.com/javase/tutorial/reflect/class/classMembers.html)
 
+_Solution:_
 ```java
 try{
 	// get the class associated with "Student"
@@ -221,3 +223,21 @@ file: [FactoryPattern.java](/FactoryPattern.java)
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-factory/problem "FactoryPattern@HR")
 
 TutorialsPoint [article](https://www.tutorialspoint.com/design_pattern/factory_pattern.htm) on Factory Pattern
+
+### Java Singleton Pattern
+
+_Solution:_
+```java
+class Singleton{
+    public String str;
+    private Singleton(){}
+    private static final Singleton instance = new Singleton();
+    public static Singleton getSingleInstance(){
+        return instance;
+    }
+}
+```
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-singleton/problem "SingletonPattern@HR")
+
+JournalDev [article](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples) on Singleton Pattern
+
