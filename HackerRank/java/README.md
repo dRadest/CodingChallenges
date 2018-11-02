@@ -276,4 +276,31 @@ _Explanation:_
 
 `25[0-5]` catches numbers between 250 and 255
 
+### Java Regex 2 - Duplicate Words
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/duplicate-word/problem "Regex2@HR")
+
+Write regular expression to catch duplicate words
+
+_Solution:_
+```java
+		// regex matching repeated words
+        String regex = "\\b(\\w+)(\\b\\W+\\b\\1\\b)*";
+        Pattern p = Pattern.compile(regex, Pattern.CASE_INSENSITIVE);
+        ...
+        Matcher m = p.matcher(input);
+        while (m.find()) {
+            input = input.replaceAll(m.group()/* The regex to replace */, m.group(1)/* The replacement. */);
+        }
+        ...
+```
+
+_Explanation:_
+
+`regex` any one or more word characters left bounded and followed zero or more times by one or more bounded (on both sides) non-word characters, followed by contents of capturing group 1, right bounded 
+
+Javadocs for [Pattern](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html) and [Matcher](https://docs.oracle.com/javase/7/docs/api/java/util/regex/Matcher.html) classes SE 7
+
+Word Boundary explained on [rexegg.com](http://www.rexegg.com/regex-boundaries.html#wordboundary)
+
 
