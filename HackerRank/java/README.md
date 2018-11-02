@@ -241,3 +241,39 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-s
 
 JournalDev [article](https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples) on Singleton Pattern
 
+### Java Covariant Return Types
+
+file: [CovariantReturnTypes.java](/CovariantReturnTypes.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-covariance/problem "CovariantReturnTypes@HR")
+
+_Oracle docs:_
+
+* [Returning a Value From a Method](https://docs.oracle.com/javase/tutorial/java/javaOO/returnvalue.html)
+
+* [Overriding and Hiding Methods](https://docs.oracle.com/javase/tutorial/java/IandI/override.html)
+
+* [Covariant Return Types](https://blogs.oracle.com/sundararajan/covariant-return-types-in-java) (blogpost)
+
+### Java Regex
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-regex/problem "Regex@HR")
+
+Write regular expression to validate IP address:
+
+>IP address is a string in the form "A.B.C.D", where the value of A, B, C, and D may range from 0 to 255. Leading zeros are allowed. The length of A, B, C, or D can't be greater than 3.
+
+_Solution:_
+`"((\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])\\.){3}(\\d{1,2}|(0|1)\\d{2}|2[0-4]\\d|25[0-5])"`
+
+_Explanation:_
+
+`\\d{1,2}` catches any one or two digit numbers
+
+`(0|1)\\d{2}` catches any three digit number starting with 0 or 1
+
+`2[0-4]\\d` catches numbers between 200 and 249
+
+`25[0-5]` catches numbers between 250 and 255
+
+
