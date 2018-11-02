@@ -339,3 +339,13 @@ _Explanation:_
 * `\\1` matches content of the first capturing group 
 
 
+### Java Comparator
+
+file: [Comparator.java](/Comparator.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-comparator/problem "Comparator@HR")
+
+Documentation for [Comparator](https://docs.oracle.com/javase/7/docs/api/java/util/Comparator.html) interface SE 7 and [String.compareTo()](https://docs.oracle.com/javase/9/docs/api/java/lang/String.html#compareTo-java.lang.String-) SE 9
+
+javatpoint [tutorial](https://www.javatpoint.com/Comparator-interface-in-collection-framework) 
+
