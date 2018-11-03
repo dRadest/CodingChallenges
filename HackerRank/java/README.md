@@ -1,4 +1,37 @@
-# Run Java in cmd / bash
+# Contents
+
+- [Run Java in cmd / bash](#run-java)
+- [Read input from _stdin_ and Write ouput to _stdout_](#read-input-from-stdin-and-write-ouput-to-stdout)
+	* [Using Scanner](#using-scanner)
+	* [Using BufferedReader](#using-bufferedreader)
+- [Solutions](#solutions)
+	* [Java Stdin and Stdout I](#java-stdin-and-stdout-i)
+	* [Java Stdin and Stdout II](#java-stdin-and-stdout-ii)
+	* [Java Output Formatting](#java-output-formatting)
+	* [Java End-of-file](#java-end-of-file)
+	* [Java Currency Formatter](#java-currency-formatter)
+	* [Java Date And Time](#java-date-and-time)
+	* [Java String Tokens](#java-string-tokens)
+	* [Valid Username Regular Expression](#valid-username-regular-expression)
+	* [Pattern Syntax Checker](#pattern-syntax-checker)
+	* [Java Primality Test](#java-primality-test)
+	* [Java Generics](#java-generics)
+	* [Java Abstract Class](#java-abstract-class)
+	* [Java Interface](#java-interface)
+	* [Java Varargs - Simple Addition](#java-varargs---simple-addition)
+	* [Java Reflection Attributes](#java-reflection-attributes)
+	* [Java Factory Pattern](#java-factory-pattern)
+	* [Java Singleton Pattern](#java-singleton-pattern)
+	* [Java Covariant Return Types](#java-covariant-return-types)
+	* [Java Regex](#java-regex)
+	* [Java Regex 2 - Duplicate Words](#java-regex-2---duplicate-words)
+	* [Tag Content Extractor](#tag-content-extractor)
+	* [Java Comparator](#java-comparator)
+	* [Prime Checker](#prime-checker)
+	* [Java Visitor Pattern](#java-visitor-pattern)
+	* [Java Annotations](#java-annotations)
+	* [Java Lambda Expressions](#java-lambda-expressions)
+# Run Java
 
 _check if java installed_
 
@@ -31,7 +64,7 @@ _compile:_ `javac HelloWorld.java`
 
 _run:_ `java HelloWorld`
 
-# Read input from _stdin_ / Write ouput to _stdout_
+# Read input from _stdin_ and Write ouput to _stdout_
 
 ### Using [Scanner](https://docs.oracle.com/javase/8/docs/api/java/util/Scanner.html)
 
@@ -65,7 +98,7 @@ file: [StdinOutOne.java](/StdinOutOne.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem "stdinoutone@HR")
 
-### Java Stdin and Stdout I
+### Java Stdin and Stdout II
 
 file: [StdinOutTwo.java](/StdinOutTwo.java)
 
