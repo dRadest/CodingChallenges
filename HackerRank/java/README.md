@@ -96,19 +96,19 @@ System.out.println("a is: " + a);
 
 ### Java Stdin and Stdout I
 
-file: [StdinOutOne.java](/StdinOutOne.java)
+file: [StdinOutOne.java](StdinOutOne.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-stdin-and-stdout-1/problem "stdinoutone@HR")
 
 ### Java Stdin and Stdout II
 
-file: [StdinOutTwo.java](/StdinOutTwo.java)
+file: [StdinOutTwo.java](StdinOutTwo.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-stdin-stdout/problem "stdinouttwo@HR")
 
 ### Java Output Formatting
 
-file: [OutputFormat.java](/OutputFormat.java)
+file: [OutputFormat.java](OutputFormat.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-output-formatting/problem "OutputFormat@HR")
 
@@ -124,19 +124,19 @@ used in the solution:
 
 ### Java End-of-file
 
-file: [EndOfFile.java](/EndOfFile.java)
+file: [EndOfFile.java](EndOfFile.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-end-of-file/problem "EndOfFile@HR")
 
 ### Java Currency Formatter
 
-file: [CurrencyFormatter.java](/CurrencyFormatter.java)
+file: [CurrencyFormatter.java](CurrencyFormatter.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-currency-formatter/problem "CurrencyFormatter@HR")
 
 ### Java Date And Time
 
-file: [DateAndTime.java](/DateAndTime.java)
+file: [DateAndTime.java](DateAndTime.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-date-and-time/problem "DateAndTime@HR")
 
@@ -144,7 +144,7 @@ Java [Calendar](https://docs.oracle.com/javase/7/docs/api/java/util/Calendar.htm
 
 ### Java String Tokens
 
-file: [StringTokens.java](/StringTokens.java)
+file: [StringTokens.java](StringTokens.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-string-tokens/problem "StringTokens@HR")
 
@@ -162,7 +162,7 @@ _solution:_ `"^[a-zA-Z]\\w{7,29}$"`
 
 ### Pattern Syntax Checker
 
-file: [PatternSyntaxChecker.java](/PatternSyntaxChecker.java)
+file: [PatternSyntaxChecker.java](PatternSyntaxChecker.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/pattern-syntax-checker/problem "PatternSyntaxChecker@HR")
 
@@ -188,7 +188,7 @@ scanner.close();
 
 ### Java Generics
 
-file: [Generics.java](/Generics.java)
+file: [Generics.java](Generics.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-generics/problem "Generics@HR")
 
@@ -198,7 +198,7 @@ Java Generics TutorialsPoint [article](https://www.tutorialspoint.com/java/java_
 
 ### Java Abstract Class
 
-file: [AbstractClass.java](/AbstractClass.java)
+file: [AbstractClass.java](AbstractClass.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-abstract-class/problem "AbstractClass@HR")
 
@@ -208,7 +208,7 @@ Java Abstraction TutorialsPoint [article](https://www.tutorialspoint.com/java/ja
 
 ### Java Interface
 
-file: [Interface.java](/Interface.java)
+file: [Interface.java](Interface.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-interface/problem "Interface@HR")
 
@@ -216,7 +216,7 @@ _Explanation:_ class without a modifier (keyword) is _package private_ (Controli
 
 ### Java Varargs - Simple Addition
 
-file: [Varargs.java](/Varargs.java)
+file: [Varargs.java](Varargs.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/simple-addition-varargs/problem "Varargs@HR")
 
@@ -253,7 +253,7 @@ Documentation for [Class](https://docs.oracle.com/javase/8/docs/api/java/lang/Cl
 
 ### Java Factory Pattern
 
-file: [FactoryPattern.java](/FactoryPattern.java)
+file: [FactoryPattern.java](FactoryPattern.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-factory/problem "FactoryPattern@HR")
 
@@ -278,7 +278,7 @@ JournalDev [article](https://www.journaldev.com/1377/java-singleton-design-patte
 
 ### Java Covariant Return Types
 
-file: [CovariantReturnTypes.java](/CovariantReturnTypes.java)
+file: [CovariantReturnTypes.java](CovariantReturnTypes.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-covariance/problem "CovariantReturnTypes@HR")
 
@@ -376,7 +376,7 @@ _Explanation:_
 
 ### Java Comparator
 
-file: [Comparator.java](/Comparator.java)
+file: [Comparator.java](Comparator.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-comparator/problem "Comparator@HR")
 
@@ -387,7 +387,7 @@ javatpoint [tutorial](https://www.javatpoint.com/Comparator-interface-in-collect
 
 ### Prime Checker
 
-file: [PrimeChecker.java](/PrimeChecker.java)
+file: [PrimeChecker.java](PrimeChecker.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/prime-checker/problem "PrimeChecker@HR")
 
@@ -395,7 +395,7 @@ Prime Checker examples on [programiz.com](https://www.programiz.com/c-programmin
 
 ### Java Visitor Pattern
 
-file: [VisitorPattern.java](/VisitorPattern.java)
+file: [VisitorPattern.java](VisitorPattern.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-vistor-pattern/problem "VisitorPattern@HR")
 
@@ -407,7 +407,7 @@ Derek Bana's [youtube video](https://youtu.be/pL4mOUDi54o) tutorial
 
 ### Java Annotations
 
-file: [Annotations.java](/Annotations.java)
+file: [Annotations.java](Annotations.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-annotations/problem "Annotations@HR")
 
@@ -424,7 +424,7 @@ Define custom annotation
 
 ### Java Lambda Expressions
 
-file: [LambdaExpressions.java](/LambdaExpressions.java)
+file: [LambdaExpressions.java](LambdaExpressions.java)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-lambda-expressions/problem "LambdaExpressions@HR")
 
