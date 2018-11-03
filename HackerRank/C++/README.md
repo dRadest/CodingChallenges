@@ -1,10 +1,26 @@
-# HackerRank C++ Challenges
-
-Solutions with blog posts (where suitable)
-
+<a href="#"><img src="https://raw.githubusercontent.com/dRadovan/CodingChallenges/master/HackerRank/C%2B%2B/cpp_badge.jpg" title="CPPGoldBadge" alt="CPPGoldBadge" width="100"></a>
+# HackerRank C++ Practice Challenges
+* [Pointer](#pointer)
+* [Variable Sized Arrays](#variable-sized-arrays)
+* [Class](#class)
+* [Box It!](#box-it)
+* [C++ Class Templates](#c-class-templates)
+* [C++ Class Template Specialization](#c-class-template-specialization)
+* [Accessing Inherited Functions](#accessing-inherited-functions)
+* [Operator Overloading](#operator-overloading)
+* [Overloading Ostream Operator](#overloading-ostream-operator)
+* [Inherited Code](#inherited-code)
+* [Cpp Exception Handling](#cpp-exception-handling)
+* [Attending Workshops](#attending-workshops)
+* [Virtual Function](#virtual-function)
+* [Messages Order](#messages-order)
+* [Abstract Classes - Polymorphism](#abstract-classes---polymorphism)
+* [Magic Spells](#magic-spells)
+* [C++ Variadics](#c-variadics)
+* [Bit Array](#bit-array)
 ## Pointer
 
-file: [pointer.cpp](/pointer.cpp)
+file: [pointer.cpp](pointer.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-pointer/problem "pointers@HR")
 
@@ -12,9 +28,9 @@ Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tuto
 
 file: 
 
-Solution using arrays [variable_sized_arrays_arr.cpp](/variable_sized_arrays_arr.cpp)
+Solution using arrays [variable_sized_arrays_arr.cpp](variable_sized_arrays_arr.cpp)
 
-Solution using vectors [variable_sized_arrays_vec.cpp](/variable_sized_arrays_vec.cpp)
+Solution using vectors [variable_sized_arrays_vec.cpp](variable_sized_arrays_vec.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/variable-sized-arrays/problem "pointers@HR") 
 
@@ -22,7 +38,7 @@ Documentation on C++ [vector](http://www.cplusplus.com/reference/vector/vector/ 
 
 ## Class
 
-file: [class.cpp](/class.cpp)
+file: [class.cpp](class.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-tutorial-class/problem "class@HR")
 
@@ -30,7 +46,7 @@ Documentation for [stringstream](http://www.cplusplus.com/reference/sstream/stri
 
 ## Box It!
 
-file: [box_it.cpp](/box_it.cpp)
+file: [box_it.cpp](box_it.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/box-it/problem "boxit@HR")
 
@@ -38,7 +54,7 @@ Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_overload
 
 ## C++ Class Templates
 
-file: [class_templates.cpp](/class_templates.cpp)
+file: [class_templates.cpp](class_templates.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/c-class-templates/problem "classtemplates@HR")
 
@@ -46,7 +62,7 @@ Tutorialspoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_template
 
 ## C++ Class Template Specialization
 
-file: [class_template_specialization.cpp](/class_template_specialization.cpp)
+file: [class_template_specialization.cpp](class_template_specialization.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-class-template-specialization/problem "classtemplatespec@HR")
 
@@ -54,25 +70,25 @@ Documentation for static_cast conversion on [cppreference.com](https://en.cppref
 
 ## Accessing Inherited Functions
 
-file: [accessing_inherited_functions.cpp](/accessing_inherited_functions.cpp)
+file: [accessing_inherited_functions.cpp](accessing_inherited_functions.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/accessing-inherited-functions/problem "aif@HR")
 
 ## Operator Overloading
 
-file: [operator_overloading.cpp](/operator_overloading.cpp)
+file: [operator_overloading.cpp](operator_overloading.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/operator-overloading/problem "op_overload@HR")
 
 ## Overloading Ostream Operator
 
-file: [overloading_ostream_operator.cpp](/overloading_ostream_operator.cpp)
+file: [overloading_ostream_operator.cpp](overloading_ostream_operator.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/overloading-ostream-operator/problem "ooo@HR")
 
 ## Inherited Code
 
-file: [inherited_code.cpp](/inherited_code.cpp)
+file: [inherited_code.cpp](inherited_code.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/inherited-code/problem "inherited_code@HR")
 
@@ -80,19 +96,19 @@ TutorialsPoint's [article](https://www.tutorialspoint.com/cplusplus/cpp_exceptio
 
 ## Cpp Exception Handling
 
-file: [cpp_exception_handling.cpp](/cpp_exception_handling.cpp)
+file: [cpp_exception_handling.cpp](cpp_exception_handling.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-exception-handling/problem "exception_handling@HR")
 
 ## Attending Workshops
 
-file: [attending_workshops.cpp](/attending_workshops.cpp)
+file: [attending_workshops.cpp](attending_workshops.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/attending-workshops/problem "attending_workshops@HR")
 
 ## Virtual Function
 
-file: [virtual_functions.cpp](/virtual_functions.cpp)
+file: [virtual_functions.cpp](virtual_functions.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/virtual-functions/problem "virtual_functions@HR")
 s
@@ -102,19 +118,19 @@ Stackoverflow [question](https://stackoverflow.com/questions/2523203/c-header-fi
 
 ## Messages Order
 
-file: [messages_order.cpp](/messages_order.cpp)
+file: [messages_order.cpp](messages_order.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/messages-order/problem "messages_order@HR")
 
 ## Abstract Classes - Polymorphism
 
-file: [abstract_classes.cpp](/abstract_classes.cpp)
+file: [abstract_classes.cpp](abstract_classes.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/abstract-classes-polymorphism/problem "abstract_classes@HR")
 
 ## Magic Spells
 
-file: [magic_spells.cpp](/magic_spells.cpp)
+file: [magic_spells.cpp](magic_spells.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/magic-spells/problem "magic_spells@HR")
 
@@ -184,7 +200,7 @@ Solution using arrays...
 
 ## C++ Variadics
 
-file: [cpp_variadics.cpp](/cpp_variadics.cpp)
+file: [cpp_variadics.cpp](cpp_variadics.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/cpp-variadics/problem "cpp_variadics@HR")
 
@@ -214,7 +230,7 @@ Post in discussion explaining the code:
 
 ## Bit Array
 
-file: [bit_array.cpp](/bit_array.cpp)
+file: [bit_array.cpp](bit_array.cpp)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/bitset-1/problem "bit_array@HR")
 
