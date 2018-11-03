@@ -387,5 +387,32 @@ Define custom annotation
 }
 ```
 
+### Java Lambda Expressions
+
+file: [LambdaExpressions.java](/LambdaExpressions.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-lambda-expressions/problem "LambdaExpressions@HR")
+
+Oracle Lambda Expressions [tutorial](https://docs.oracle.com/javase/tutorial/java/javaOO/lambdaexpressions.html)
+
+"Lambda expressions enable you [...] to __treat funcionality as method argument__, or code as data. Lambda expressions let you express instances of single-method classes more compactly. You can consider lambda expressions as __anonymous methods__ — methods without a name."
+
+_Example:_
+```java
+// functional interface (w/ only one abstract method)
+interface CheckPerson {
+    boolean test(Person p);
+}
+
+/* lambda expression instead of anonymous class that implements the interface
+	syntax: parameter(s) -> body */
+(Person p) -> p.getGender() == Person.Sex.MALE
+	&& p.getAge() >= 18
+	&& p.getAge() <= 25
+```
+
+`isPrime()` logic from StackOverflow [topic](https://stackoverflow.com/questions/1538644/c-determine-if-a-number-is-prime)
+
+`isPalindrome()` logic from javatpoint [tutorial](https://www.javatpoint.com/palindrome-program-in-java)
 
 
