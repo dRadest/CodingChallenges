@@ -370,5 +370,22 @@ Tutorials: [DZone](https://dzone.com/articles/design-patterns-visitor), [Tutoria
 
 Derek Bana's [youtube video](https://youtu.be/pL4mOUDi54o) tutorial
 
+### Java Annotations
+
+file: [Annotations.java](/Annotations.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-annotations/problem "Annotations@HR")
+
+Oracle Annotations [tutorial](https://docs.oracle.com/javase/tutorial/java/annotations/)
+
+Define custom annotation
+```java
+@Target(ElementType.METHOD) // used only w/ a method in a class
+@Retention(RetentionPolicy.RUNTIME) // how annotation is stored? also SOURCE and CLASS
+@interface FamilyBudget {
+   String userRole() default "GUEST"; // member takes String, default "GUEST"
+}
+```
+
 
 
