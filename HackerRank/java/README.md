@@ -349,3 +349,26 @@ Documentation for [Comparator](https://docs.oracle.com/javase/7/docs/api/java/ut
 
 javatpoint [tutorial](https://www.javatpoint.com/Comparator-interface-in-collection-framework) 
 
+
+### Prime Checker
+
+file: [PrimeChecker.java](/PrimeChecker.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/prime-checker/problem "PrimeChecker@HR")
+
+Prime Checker examples on [programiz.com](https://www.programiz.com/c-programming/examples/prime-number) and [GeeksforGeeks](https://www.geeksforgeeks.org/primality-test-set-1-introduction-and-school-method/)
+
+### Java Visitor Pattern
+
+file: [VisitorPattern.java](/VisitorPattern.java)
+
+Problem description on [HackerRank](https://www.hackerrank.com/challenges/java-vistor-pattern/problem "VisitorPattern@HR")
+
+Wikipedia [article](https://en.wikipedia.org/wiki/Visitor_pattern) on Visitor Pattern with examples
+
+Tutorials: [DZone](https://dzone.com/articles/design-patterns-visitor), [TutorialPoint](https://www.tutorialspoint.com/design_pattern/visitor_pattern.htm)
+
+Derek Bana's [youtube video](https://youtu.be/pL4mOUDi54o) tutorial
+
+
+
