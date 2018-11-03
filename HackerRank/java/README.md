@@ -1,3 +1,5 @@
+<a href="#"><img src="https://raw.githubusercontent.com/dRadovan/CodingChallenges/master/HackerRank/java/java_badge.jpg" title="JavaGoldBadge" alt="JavaGoldBadge" width="100"></a>
+# HackerRank Java Practice Challenges
 # Contents
 
 - [Run Java in cmd / bash](#run-java)
