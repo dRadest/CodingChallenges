@@ -1,8 +1,13 @@
+<a href="#"><img src="https://raw.githubusercontent.com/dRadovan/CodingChallenges/master/HackerRank/SQL/sql_badge.jpg" title="SQLGoldBadge" alt="SQLGoldBadge" width="100"></a>
 # Hacker Rank SQL Challenges
 
 Below are links to the challenge description and blog post.
-
-## Wather Observation Station
+* [Weather Observation Station](#weather-observation-station)
+* [Binary Tree Nodes](#binary-tree-nodes)
+* [The Report](#the-report)
+* [Print Prime Numbers](#print-prime-numbers)
+## Weather Observation Station
+file: [WeatherObservationStation.sql](WeatherObservationStation.sql)
 
 Link to [blogpost](http://dradest.com/blog/2018/10/22/weather-observation-station-challenges/ "WOS blogpost").
 
@@ -28,13 +33,16 @@ Link to [blogpost](http://dradest.com/blog/2018/10/22/weather-observation-statio
 * [Query 20](https://www.hackerrank.com/challenges/weather-observation-station-20/problem)
 
 ## Binary Tree Nodes
+file: [BinarTreeNodes.sql](BinarTreeNodes.sql)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/binary-search-tree-1/problem "BTN@HR")
 
 ## The Report
+file: [TheReport.sql](TheReport.sql)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/the-report/problem "TheReport@HR")
 
 ## Print Prime Numbers
+file: [PrintPrimeNumbers.sql](PrintPrimeNumbers.sql)
 
 Problem description on [HackerRank](https://www.hackerrank.com/challenges/print-prime-numbers/problem "PrimeNumbers@HR")
