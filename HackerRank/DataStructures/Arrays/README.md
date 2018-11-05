@@ -33,3 +33,17 @@ int[] array = {1, 2, 3, 4, 5};
 // access element: dataType[position]
 int number = array[3];
 ```
+
+# Solutions
+## 2D Arrays
+file: 
+
+Java [2dArrays.java](2dArrays.java)
+
+C [2d_arrays.c](2d_arrays.c)
+
+access 2d array elements via pointers
+
+`*(*(arr + i) + j)` where i is row number and j is column number
+
+tutorial on [dyclassroom.com](https://www.dyclassroom.com/c/c-pointers-and-two-dimensional-array)
