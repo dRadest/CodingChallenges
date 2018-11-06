@@ -1,0 +1,131 @@
+# Contents
+* [Basics](#basics)
+	- [Definitions](#singly-linked-lists-definitions)
+* [Solutions](#solutions)
+	- [Print the Elements](#print-the-elements-of-a-inked-list)
+# Basics
+
+### Singly Linked Lists Definitions
+
+Node and Linked List in...
+
+...C
+```c
+struct SinglyLinkedListNode {
+    int data;
+    SinglyLinkedListNode* next;
+};
+
+struct SinglyLinkedList {
+    SinglyLinkedListNode* head;
+    SinglyLinkedListNode* tail; 
+    /* some implementation use field int size 
+    	instead of a pointer to the tail node*/
+};
+```
+
+...C++
+```c++
+class SinglyLinkedListNode {
+    public:
+        int data;
+        SinglyLinkedListNode *next;
+
+        SinglyLinkedListNode(int node_data) {
+            this->data = node_data;
+            this->next = nullptr;
+        }
+};
+
+class SinglyLinkedList {
+    public:
+        SinglyLinkedListNode *head;
+        SinglyLinkedListNode *tail;
+
+        SinglyLinkedList() {
+            this->head = nullptr;
+            this->tail = nullptr;
+        }
+
+        void insert_node(int node_data) {
+            SinglyLinkedListNode* node = new SinglyLinkedListNode(node_data);
+
+            if (!this->head) {
+                this->head = node;
+            } else {
+                this->tail->next = node;
+            }
+
+            this->tail = node;
+        }
+};
+```
+
+...Java
+```java
+static class SinglyLinkedListNode {
+    public int data;
+    public SinglyLinkedListNode next;
+
+    public SinglyLinkedListNode(int nodeData) {
+        this.data = nodeData;
+        this.next = null;
+    }
+}
+
+static class SinglyLinkedList {
+    public SinglyLinkedListNode head;
+    public SinglyLinkedListNode tail;
+
+    public SinglyLinkedList() {
+        this.head = null;
+        this.tail = null;
+    }
+
+    public void insertNode(int nodeData) {
+        SinglyLinkedListNode node = new SinglyLinkedListNode(nodeData);
+
+        if (this.head == null) {
+            this.head = node;
+        } else {
+            this.tail.next = node;
+        }
+
+        this.tail = node;
+    }
+}
+```
+
+# Solutions
+
+### Print the Elements of a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem)
+
+traverse through the linked list
+```
+while(node != null){
+	node = node -> next
+}
+```
+file:
+
+C [print_elements.c](print_elements.c)
+
+C++ [print_elements.cpp](print_elements.cpp)
+
+Java [Printelements.java](PrintElements.java)
+
+recursive solution (Java)
+```java
+static void printLinkedList(SinglyLinkedListNode head) {
+    if(head == null){
+        return;
+    }
+    else{
+        System.out.println(head.data);
+        printLinkedList(head.next);
+    }
+
+}
+```
