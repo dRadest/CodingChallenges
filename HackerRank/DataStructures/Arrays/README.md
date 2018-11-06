@@ -72,3 +72,9 @@ reallocate memory for an array
 `b = (int*)realloc(b, 4*sizeof(int));`
 
 Linked list C tutorial on [learn-c.org](https://www.learn-c.org/en/Linked_lists)
+
+## Left Rotation
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/array-left-rotation/problem)
+
+file: Java [LeftRotation.java](LeftRotation.java)
