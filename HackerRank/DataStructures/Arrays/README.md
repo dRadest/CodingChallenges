@@ -2,6 +2,8 @@
 * [Solutions](#solutions)
 	- [2D Arrays](#2d-arrays)
 	- [Dynamic Arrays](#dynamic-arrays)
+	- [Left rotation](#left-rotation)
+	- [Sparse Arrays](#sparse-arrays)
 
 # Basics
 
@@ -78,3 +80,9 @@ Linked list C tutorial on [learn-c.org](https://www.learn-c.org/en/Linked_lists)
 Problem on [HackerRank](https://www.hackerrank.com/challenges/array-left-rotation/problem)
 
 file: Java [LeftRotation.java](LeftRotation.java)
+
+## Sparse Arrays
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem)
+
+file: Java [SparseArrays.java](SparseArrays.java)
