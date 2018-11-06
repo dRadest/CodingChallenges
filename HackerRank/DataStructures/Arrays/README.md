@@ -4,6 +4,7 @@
 	- [Dynamic Arrays](#dynamic-arrays)
 	- [Left rotation](#left-rotation)
 	- [Sparse Arrays](#sparse-arrays)
+	* [Array Manipulation](#array-manipulation)
 
 # Basics
 
@@ -86,3 +87,35 @@ file: Java [LeftRotation.java](LeftRotation.java)
 Problem on [HackerRank](https://www.hackerrank.com/challenges/sparse-arrays/problem)
 
 file: Java [SparseArrays.java](SparseArrays.java)
+
+## Array Manipulation
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/crush/problem)
+
+file: 
+
+C [array_manipulation.c](array_manipulation.c)
+
+Java [ArrayManipulation.java](ArrayManipulation.java)
+
+Naive solution (O(n^2)) in Java that solves most test cases (NOT all though)
+
+```java
+static long arrayManipulation(int n, int[][] queries) {
+    long[] endArray = new long[n];
+    int a, b, k;
+    long max = 0;
+    for(int i=0; i<queries.length; i++){
+        a = queries[i][0];
+        b = queries[i][1];
+        k = queries[i][2];
+        for(int j=a-1; j<b; j++){
+            endArray[j] += k;
+            if(endArray[j]>max){
+                max = endArray[j];
+            }
+        }
+    }
+    return max;
+}
+```
