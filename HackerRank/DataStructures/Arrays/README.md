@@ -1,3 +1,8 @@
+* [Basics](#basics)
+* [Solutions](#solutions)
+	- [2D Arrays](#2d-arrays)
+	- [Dynamic Arrays](#dynamic-arrays)
+
 # Basics
 
 __declare, initialize, access...__
@@ -36,6 +41,7 @@ int number = array[3];
 
 # Solutions
 ## 2D Arrays
+Problem on [HackerRank](https://www.hackerrank.com/challenges/2d-array/problem)
 file: 
 
 Java [2dArrays.java](2dArrays.java)
@@ -47,3 +53,22 @@ access 2d array elements via pointers
 `*(*(arr + i) + j)` where i is row number and j is column number
 
 tutorial on [dyclassroom.com](https://www.dyclassroom.com/c/c-pointers-and-two-dimensional-array)
+
+## Dynamic Arrays
+Problem on [HackerRank](https://www.hackerrank.com/challenges/dynamic-array/problem)
+
+file:
+
+Java [DynamicArrays.java](DynamicArrays.java)
+
+C [dynamic_arrays.c](dynamic_array.c)
+
+allocate memory for an array
+
+`int* b = (int*)malloc(sizeof(int));`
+
+reallocate memory for an array
+
+`b = (int*)realloc(b, 4*sizeof(int));`
+
+Linked list C tutorial on [learn-c.org](https://www.learn-c.org/en/Linked_lists)
