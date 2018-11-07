@@ -4,6 +4,7 @@
 * [Solutions](#solutions)
 	- [Print the Elements](#print-the-elements-of-a-inked-list)
 	- [Insert at the Tail](#insert-a-node-at-the-tail-of-a-linked-list)
+	- [Insert at the Head](#insert-a-node-at-the-head-of-a-linked-list)
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -163,4 +164,16 @@ C [insert_at_tail.c](insert_at_tail.c)
 C++ [insert_at_tail.cpp](insert_at_tail.cpp)
 
 Java [InsertAtTail.java](InsertAtTail.java)
+
+### Insert a Node at the Head of a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-head-of-a-linked-list/problem)
+
+file:
+
+C [insert_at_head.c](insert_at_head.c)
+
+C++ [insert_at_head.cpp](insert_at_head.cpp)
+
+Java [InsertAtHead.java](InsertAtHead.java)
 
