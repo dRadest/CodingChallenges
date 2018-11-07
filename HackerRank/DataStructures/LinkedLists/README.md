@@ -8,7 +8,9 @@
 	- [Insert at a Position](#insert-a-node-at-a-specific-position-in-a-linked-list)
 	- [Delete a Node](#delete-a-node-from-a-linked-list)
 	- [Print in Reverse](#print-in-reverse)
-	* [Reverse a Linked List](#reverse-a-linked-list)
+	- [Reverse a Linked List](#reverse-a-linked-list)
+	- [Cycle Detection](#cycle-detection)
+
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -228,3 +230,9 @@ static SinglyLinkedListNode reverse(SinglyLinkedListNode head) {
     return rem;
 }
 ```
+
+### Cycle Detection
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem)
+
+file: Java [CycleDetection.java](CycleDetection.java)
