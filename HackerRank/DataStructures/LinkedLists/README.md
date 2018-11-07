@@ -6,6 +6,7 @@
 	- [Insert at the Tail](#insert-a-node-at-the-tail-of-a-linked-list)
 	- [Insert at the Head](#insert-a-node-at-the-head-of-a-linked-list)
 	- [Insert at a Position](#insert-a-node-at-a-specific-position-in-a-linked-list)
+	- [Delete a Node](#delete-a-node-from-a-linked-list)
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -183,3 +184,19 @@ Java [InsertAtHead.java](InsertAtHead.java)
 Problem on [HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem)
 
 file: Java [InsertAtPosition.java](InsertAtPosition.java)
+
+### Delete a Node From a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem)
+
+file: Java [DeleteANode.java](DeleteANode.java)
+
+recursive solution (Java)
+```java
+Node Delete(Node head, int position) {
+    if(position == 0)
+        return head.next;
+    head.next = Delete(head.next, position-1);
+    return head;
+}
+```
