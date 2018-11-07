@@ -3,6 +3,7 @@
 	- [Definitions](#singly-linked-lists-definitions)
 * [Solutions](#solutions)
 	- [Print the Elements](#print-the-elements-of-a-inked-list)
+	- [Insert at the Tail](#insert-a-node-at-the-tail-of-a-linked-list)
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -129,3 +130,37 @@ static void printLinkedList(SinglyLinkedListNode head) {
 
 }
 ```
+
+### Insert a Node at the Tail of a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem)
+
+pseudocode
+```
+new_node=new Node
+(*new_node).val=new_value
+(*new_node).next=NULL
+
+ptr=head
+
+if ptr is NULL  //Empty List
+    head=new_node
+else
+    ptr=head
+
+    //Traverse till the last node
+
+    while((*ptr).next!=NULL)
+    ptr=(*ptr).next
+
+    //Now ptr points to the last node of the list
+    (*ptr).next=new_node
+```
+file:
+
+C [insert_at_tail.c](insert_at_tail.c)
+
+C++ [insert_at_tail.cpp](insert_at_tail.cpp)
+
+Java [InsertAtTail.java](InsertAtTail.java)
+
