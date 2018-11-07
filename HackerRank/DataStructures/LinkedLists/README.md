@@ -8,6 +8,7 @@
 	- [Insert at a Position](#insert-a-node-at-a-specific-position-in-a-linked-list)
 	- [Delete a Node](#delete-a-node-from-a-linked-list)
 	- [Print in Reverse](#print-in-reverse)
+	* [Reverse a Linked List](#reverse-a-linked-list)
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -207,3 +208,23 @@ Node Delete(Node head, int position) {
 Problem on [HackerRank](https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list-in-reverse/problem)
 
 file: Java [PrintInReverse.java](PrintInReverse.java)
+
+### Reverse a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/reverse-a-linked-list/problem)
+
+file: Java [ReverseLinkedList.java](ReverseLinkedList.java)
+
+recursive solution (Java)
+```java
+static SinglyLinkedListNode reverse(SinglyLinkedListNode head) {
+    if(head==null || head.next == null){
+        return head;
+    }
+    
+    SinglyLinkedListNode rem = reverse(head.next);
+    head.next.next = head;
+    head.next = null;
+    return rem;
+}
+```
