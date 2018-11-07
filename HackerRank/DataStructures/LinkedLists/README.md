@@ -5,6 +5,7 @@
 	- [Print the Elements](#print-the-elements-of-a-inked-list)
 	- [Insert at the Tail](#insert-a-node-at-the-tail-of-a-linked-list)
 	- [Insert at the Head](#insert-a-node-at-the-head-of-a-linked-list)
+	- [Insert at a Position](#insert-a-node-at-a-specific-position-in-a-linked-list)
 # Basics
 
 ### Singly Linked Lists Definitions
@@ -177,3 +178,8 @@ C++ [insert_at_head.cpp](insert_at_head.cpp)
 
 Java [InsertAtHead.java](InsertAtHead.java)
 
+### Insert a Node at a Specific Position in a Linked List
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem)
+
+file: Java [InsertAtPosition.java](InsertAtPosition.java)
