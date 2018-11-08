@@ -6,6 +6,7 @@
  		+ [Tree Height](#tree-height)
 * [Solutions](#solutions)
 	- [Top View](#top-view)
+	- [Is This a Binary Search Tree?](#is-this-a-binary-search-tree)
 
 
 
@@ -143,10 +144,18 @@ Code adopted from GeeksforGeeks [article](https://www.geeksforgeeks.org/level-or
 
 
 # Solutions
-##### Top View
+#### Top View
 
 Problem on [HackerRank](https://www.hackerrank.com/challenges/tree-top-view/problem)
 
 file: C++ [top_view.cpp](top_view.cpp)
 
 GeeksforGeeks [article](https://www.geeksforgeeks.org/print-nodes-top-view-binary-tree/) on top view
+
+#### Is This a Binary Search Tree?
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/is-binary-search-tree/problem)
+
+file: C++ [check_bst.cpp](check_bst.cpp)
+
+GeeksforGeeks [article](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) on checking if a tree is a BST
