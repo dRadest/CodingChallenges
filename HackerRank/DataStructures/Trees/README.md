@@ -7,6 +7,7 @@
 * [Solutions](#solutions)
 	- [Top View](#top-view)
 	- [Is This a Binary Search Tree?](#is-this-a-binary-search-tree)
+	- [Swap Nodes](#swap-nodes)
 
 
 
@@ -159,3 +160,15 @@ Problem on [HackerRank](https://www.hackerrank.com/challenges/is-binary-search-t
 file: C++ [check_bst.cpp](check_bst.cpp)
 
 GeeksforGeeks [article](https://www.geeksforgeeks.org/a-program-to-check-if-a-binary-tree-is-bst-or-not/) on checking if a tree is a BST
+
+#### Swap Nodes
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/swap-nodes-algo/problem)
+
+file: 
+
+Recursive, passes 8/12 test cases
+
+C++ [swap_nodes_rec.cpp](swap_nodes_rec.cpp) and [swap_nodes_rec2.cpp](swap_nodes_rec2.cpp) 
+
+GeeksforGeeks [article](https://www.geeksforgeeks.org/swap-nodes-binary-tree-every-kth-level/)
