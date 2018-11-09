@@ -169,6 +169,6 @@ file:
 
 Recursive, passes 8/12 test cases
 
-C++ [swap_nodes_rec.cpp](swap_nodes_rec.cpp) and [swap_nodes_rec2.cpp](swap_nodes_rec2.cpp) 
+C++ [swap_nodes_rec.cpp](swap_nodes_rec.cpp) and [swap_nodes-rec2.cpp](swap_nodes-rec2.cpp) 
 
 GeeksforGeeks [article](https://www.geeksforgeeks.org/swap-nodes-binary-tree-every-kth-level/)
