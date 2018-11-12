@@ -9,6 +9,7 @@
 	- [Is This a Binary Search Tree?](#is-this-a-binary-search-tree)
 	- [Swap Nodes](#swap-nodes)
 	- [Square-Ten Tree](#square-ten-tree)
+    - [Balanced Tree](#balanced-tree)
 
 
 
@@ -186,5 +187,6 @@ Problem on [HackerRank](https://www.hackerrank.com/challenges/balanced-forest/pr
 
 files:
 
-Java [BalancedForestTimeout.java](BalancedForestTimeout.java) passes 5/8 test cases
-C++ [balanced_forest.cpp](balanced_forest.cpp) passes 8/8 test cases
+Java [BalancedForestTimeout.java](BalancedForestTimeout.java) passes __5/8__ test cases
+
+C++ [balanced_forest.cpp](balanced_forest.cpp) passes __8/8__ test cases
