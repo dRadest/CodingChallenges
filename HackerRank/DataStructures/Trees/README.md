@@ -8,6 +8,7 @@
 	- [Top View](#top-view)
 	- [Is This a Binary Search Tree?](#is-this-a-binary-search-tree)
 	- [Swap Nodes](#swap-nodes)
+	- [Square-Ten Tree](#square-ten-tree)
 
 
 
@@ -172,3 +173,18 @@ Recursive, passes 8/12 test cases
 C++ [swap_nodes_rec.cpp](swap_nodes_rec.cpp) and [swap_nodes-rec2.cpp](swap_nodes-rec2.cpp) 
 
 GeeksforGeeks [article](https://www.geeksforgeeks.org/swap-nodes-binary-tree-every-kth-level/)
+
+#### Square Ten Tree
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/square-ten-tree/problem)
+
+file: Java [SquareTenTree.java](SquareTenTree.java)
+
+#### Balanced Tree
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/balanced-forest/problem)
+
+files:
+
+Java [BalancedForestTimeout.java](BalancedForestTimeout.java) passes 5/8 test cases
+C++ [balanced_forest.cpp](balanced_forest.cpp) passes 8/8 test cases
