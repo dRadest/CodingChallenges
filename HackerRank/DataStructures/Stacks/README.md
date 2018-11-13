@@ -3,6 +3,7 @@
 * [Basics](#basics)
 * [Solutions](#solutions)
 	- [Maximum Element](#maximum-element)
+	- [Equal Stacks](#equal-stacks)
 
 # Basics
            _____________________
@@ -29,3 +30,9 @@ files:
 C [maximum_element.c](maximum_element.c)
 
 Java [MaximumElement.java](MaximumElement.java)
+
+### Equal Stacks
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/equal-stacks/problem)
+
+file: Java [EqualStacks.java](EqualStacks.java)
