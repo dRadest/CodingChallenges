@@ -4,6 +4,7 @@
 * [Solutions](#solutions)
 	- [Maximum Element](#maximum-element)
 	- [Equal Stacks](#equal-stacks)
+	- [Balanced Brackets](#balanced-brackets)
 
 # Basics
            _____________________
@@ -36,3 +37,9 @@ Java [MaximumElement.java](MaximumElement.java)
 Problem on [HackerRank](https://www.hackerrank.com/challenges/equal-stacks/problem)
 
 file: Java [EqualStacks.java](EqualStacks.java)
+
+### Balanced Brackets
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/problem)
+
+file: Java [BalancedBrackets.java](BalancedBrackets.java)
