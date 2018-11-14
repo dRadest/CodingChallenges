@@ -5,6 +5,7 @@
 	- [Maximum Element](#maximum-element)
 	- [Equal Stacks](#equal-stacks)
 	- [Balanced Brackets](#balanced-brackets)
+	- [Largest Rectangle](#largest-rectangle)
 
 # Basics
            _____________________
@@ -43,3 +44,13 @@ file: Java [EqualStacks.java](EqualStacks.java)
 Problem on [HackerRank](https://www.hackerrank.com/challenges/balanced-brackets/problem)
 
 file: Java [BalancedBrackets.java](BalancedBrackets.java)
+
+### Largest Rectangle
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/largest-rectangle/problem)
+
+file: 
+
+Java [LargestRectangle.java](LargestRectangle.java)
+
+C++ [largest_rectangle.cpp](#largest_rectangle.cpp)
