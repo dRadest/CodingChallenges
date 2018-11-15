@@ -41,3 +41,9 @@ Solution using PriorityQueue of java.util library
             }
 }
 ```
+
+#### Jesse And Cookies
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/jesse-and-cookies/problem)
+
+file: Java [JesseAndCookies.java](JesseAndCookies.java)
