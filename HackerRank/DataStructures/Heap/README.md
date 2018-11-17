@@ -47,3 +47,13 @@ Solution using PriorityQueue of java.util library
 Problem on [HackerRank](https://www.hackerrank.com/challenges/jesse-and-cookies/problem)
 
 file: Java [JesseAndCookies.java](JesseAndCookies.java)
+
+#### Minimum Average Waiting Time
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/minimum-average-waiting-time/problem)
+
+file: 
+
+C++ [min_avg_wait_time.cpp](min_avg_wait_time.cpp)
+
+Java [MinAvgWaitTime.java](MinAvgWaitTime.java)
