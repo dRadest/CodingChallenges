@@ -1,0 +1,20 @@
+### Compare the Triplets
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
+
+C++ solution
+```c++
+vector<int> compareTriplets(vector<int> a, vector<int> b) {
+    vector<int> result(2);
+    result[0] = 0;
+    result[1] = 0;
+    for(int i=0; i<3; i++){
+        if(a[i] > b[i]){
+            result[0]++;
+        } else if(a[i] < b[i]){
+            result[1]++;
+        }
+    }
+    return result;
+}
+``` 
