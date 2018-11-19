@@ -38,3 +38,23 @@ int diagonalDifference(vector<vector<int>> arr) {
 
 }
 ```
+
+### Staircase
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/staircase/problem)
+
+C/C++ solution
+```c++
+void staircase(int n) {
+    for(int i=0; i<n; i++){
+        for(int j=0; j<n; j++){
+            if(j >= n - 1 - i){
+                printf("#");
+            } else {
+                printf(" ");
+            }
+        }
+        printf("\n");
+    }
+}
+```
