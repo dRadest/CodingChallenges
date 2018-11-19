@@ -18,3 +18,23 @@ vector<int> compareTriplets(vector<int> a, vector<int> b) {
     return result;
 }
 ``` 
+
+### Diagonal Difference
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/diagonal-difference/problem)
+
+C++ solution
+```c++
+int diagonalDifference(vector<vector<int>> arr) {
+    int n = arr.size();
+    int rightd = 0, leftd = 0; // diagonals
+    for(int i=0; i<n; i++){
+        rightd += arr[i][i];
+        leftd += arr[i][n-1-i];
+    }
+    
+    return abs(rightd - leftd);
+
+
+}
+```
