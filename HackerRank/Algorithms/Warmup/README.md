@@ -129,3 +129,24 @@ int main()
     return 0;
 }
 ```
+
+### Birthday Cake Candles
+
+Problem on [HackerRank](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
+
+C++ solution
+```c++
+int birthdayCakeCandles(vector<int> ar) {
+    sort(ar.begin(), ar.end());
+    int n = ar.size();
+    int max_height = ar[n-1];
+    int max_candles = 1;
+    for(int i = n-2; i >= 0; i--){
+        if(ar[i] != max_height){
+            break;
+        }
+        max_candles++;
+    }
+    return max_candles;
+}
+```
