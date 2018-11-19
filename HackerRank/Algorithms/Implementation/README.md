@@ -23,3 +23,28 @@ vector<int> breakingRecords(vector<int> scores) {
     return ans;
 }
 ```
+
+### Cavity Map
+
+[Description](https://www.hackerrank.com/challenges/cavity-map/problem)
+
+C++ solution
+```c++
+vector<string> cavityMap(vector<string> grid) {
+    int n = grid.size();
+    vector<string> ans(grid);
+    for(int i=1; i<n-1; i++){
+        for(int j=1; j<ans[i].length()-1; j++){
+            int cur = ans[i][j] - '0';
+            int top = ans[i-1][j] - '0';
+            int left = ans[i][j-1] - '0';
+            int bottom = ans[i+1][j] - '0';
+            int right = ans[i][j+1] - '0';
+            if(cur > top && cur > left && cur > bottom && cur > right){
+                ans[i][j] = 'X';
+            }
+        }
+    }
+    return ans;
+}
+```
