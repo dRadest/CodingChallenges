@@ -73,3 +73,11 @@ vector<int> stones(int n, int a, int b) {
     return ans;
 }
 ```
+
+### Forming a Magic Square
+
+[Description](https://www.hackerrank.com/challenges/magic-square-forming/problem)
+
+file: C++ [forming_a_magic_Square.cpp](forming_a_magic_square.cpp)
+
+GeeksforGeeks [example](https://www.geeksforgeeks.org/minimum-cost-convert-3-x-3-matrix-magic-square/)
