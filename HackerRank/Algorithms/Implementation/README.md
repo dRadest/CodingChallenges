@@ -81,3 +81,9 @@ vector<int> stones(int n, int a, int b) {
 file: C++ [forming_a_magic_Square.cpp](forming_a_magic_square.cpp)
 
 GeeksforGeeks [example](https://www.geeksforgeeks.org/minimum-cost-convert-3-x-3-matrix-magic-square/)
+
+### Encryption
+
+[Description](https://www.hackerrank.com/challenges/encryption/problem)
+
+file: C++ [encryption.cpp](encryption.cpp)
