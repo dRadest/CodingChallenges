@@ -93,3 +93,9 @@ file: C++ [encryption.cpp](encryption.cpp)
 [Description](https://www.hackerrank.com/challenges/absolute-permutation/problem)
 
 file: C++ [absolute_permutation.cpp](absolute_permutation.cpp)
+
+### Bomberman Game
+
+[Description](https://www.hackerrank.com/challenges/bomber-man/problem)
+
+file: C++ [bomberman_game.cpp](bomberman_game.cpp)
