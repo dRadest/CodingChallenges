@@ -99,3 +99,13 @@ file: C++ [absolute_permutation.cpp](absolute_permutation.cpp)
 [Description](https://www.hackerrank.com/challenges/bomber-man/problem)
 
 file: C++ [bomberman_game.cpp](bomberman_game.cpp)
+
+### Larry's Array
+
+[Description](https://www.hackerrank.com/challenges/larrys-array/problem)
+
+file: 
+
+Java [LarryArray.java](LarryArray.java)
+
+C++ [larry_array_setter.cpp](larry_array_setter.cpp)
