@@ -48,3 +48,28 @@ vector<string> cavityMap(vector<string> grid) {
     return ans;
 }
 ```
+
+### Manasa and Stones
+
+[Description](https://www.hackerrank.com/challenges/manasa-and-stones/problem)
+
+C++ solution
+```c++
+vector<int> stones(int n, int a, int b) {
+    vector<int> ans;
+    set<int> set;
+    int mina = min(a, b);
+    int maxb = max(a, b);
+    n--;
+    for(int i=0; i<=n; i++){
+        int element = i*maxb+(n-i)*mina;
+        set.insert(element);
+    }
+    std::set<int>::iterator it = set.begin();
+    while(it != set.end()){
+        ans.push_back(*it);
+        it++;
+    }
+    return ans;
+}
+```
