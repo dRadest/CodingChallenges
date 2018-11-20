@@ -87,3 +87,9 @@ GeeksforGeeks [example](https://www.geeksforgeeks.org/minimum-cost-convert-3-x-3
 [Description](https://www.hackerrank.com/challenges/encryption/problem)
 
 file: C++ [encryption.cpp](encryption.cpp)
+
+### Absolute Permutation
+
+[Description](https://www.hackerrank.com/challenges/absolute-permutation/problem)
+
+file: C++ [absolute_permutation.cpp](absolute_permutation.cpp)
