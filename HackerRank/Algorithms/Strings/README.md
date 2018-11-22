@@ -1,6 +1,8 @@
 * [CamelCase](#camelcase)
 * [Two Characters](#two-characters)
 * [The Love Letter Mystery](#the-love-letter-mystery)
+* [Palindrome Index](#palindrome-index)
+
 
 ### CamelCase
 
@@ -35,3 +37,9 @@ _note:_ there are probably easier (less complex solutions)
 [Description](https://www.hackerrank.com/challenges/the-love-letter-mystery/problem)
 
 file: Java [LoveLetterMystery.java](LoveLetterMystery.java)
+
+### Palindrome Index
+
+[Description](https://www.hackerrank.com/challenges/palindrome-index/problem)
+
+file: C++ [palindrome_index.cpp](palindrome_index.cpp)
