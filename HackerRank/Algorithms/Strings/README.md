@@ -3,6 +3,8 @@
 * [The Love Letter Mystery](#the-love-letter-mystery)
 * [Palindrome Index](#palindrome-index)
 * [Anagram](#anagram)
+* [Making Anagrams](#making-anagrams)
+* [Game Of Thrones I](#game-of-thrones-i)
 
 
 ### CamelCase
@@ -56,3 +58,9 @@ file: Java [Anagram.java](Anagram.java)
 [Description](https://www.hackerrank.com/challenges/making-anagrams/problem)
 
 file: Java [MakingAnagrams.java](MakingAnagrams.java)
+
+### Game Of Thrones I
+
+[Description](https://www.hackerrank.com/challenges/game-of-thrones/problem)
+
+file: Java [GameOfThrones.java](GameOfThrones.java)
