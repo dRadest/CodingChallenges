@@ -50,3 +50,9 @@ file: C++ [palindrome_index.cpp](palindrome_index.cpp)
 [Description](https://www.hackerrank.com/challenges/anagram/problem)
 
 file: Java [Anagram.java](Anagram.java)
+
+### Making Anagrams
+
+[Description](https://www.hackerrank.com/challenges/making-anagrams/problem)
+
+file: Java [MakingAnagrams.java](MakingAnagrams.java)
