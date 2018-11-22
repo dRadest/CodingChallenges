@@ -20,3 +20,10 @@ static int camelcase(String s) {
 }
 ```
 
+### Two Characters
+
+[Description](https://www.hackerrank.com/challenges/two-characters/problem)
+
+file: Java [TwoCharacters.java](TwoCharacters.java)
+
+_note:_ there are probably easier (less complex solutions)
