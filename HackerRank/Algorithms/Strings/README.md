@@ -1,4 +1,6 @@
 * [CamelCase](#camelcase)
+* [Two Characters](#two-characters)
+* [The Love Letter Mystery](#the-love-letter-mystery)
 
 ### CamelCase
 
@@ -27,3 +29,9 @@ static int camelcase(String s) {
 file: Java [TwoCharacters.java](TwoCharacters.java)
 
 _note:_ there are probably easier (less complex solutions)
+
+### The Love Letter Mystery
+
+[Description](https://www.hackerrank.com/challenges/the-love-letter-mystery/problem)
+
+file: Java [LoveLetterMystery.java](LoveLetterMystery.java)
