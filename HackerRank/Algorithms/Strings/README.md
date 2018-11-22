@@ -2,6 +2,7 @@
 * [Two Characters](#two-characters)
 * [The Love Letter Mystery](#the-love-letter-mystery)
 * [Palindrome Index](#palindrome-index)
+* [Anagram](#anagram)
 
 
 ### CamelCase
@@ -43,3 +44,9 @@ file: Java [LoveLetterMystery.java](LoveLetterMystery.java)
 [Description](https://www.hackerrank.com/challenges/palindrome-index/problem)
 
 file: C++ [palindrome_index.cpp](palindrome_index.cpp)
+
+### Anagram
+
+[Description](https://www.hackerrank.com/challenges/anagram/problem)
+
+file: Java [Anagram.java](Anagram.java)
