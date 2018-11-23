@@ -5,6 +5,7 @@
 * [Anagram](#anagram)
 * [Making Anagrams](#making-anagrams)
 * [Game Of Thrones I](#game-of-thrones-i)
+* [Highest Value Palindrome](#highest-value-palindrome)
 
 
 ### CamelCase
@@ -64,3 +65,9 @@ file: Java [MakingAnagrams.java](MakingAnagrams.java)
 [Description](https://www.hackerrank.com/challenges/game-of-thrones/problem)
 
 file: Java [GameOfThrones.java](GameOfThrones.java)
+
+### Highest Value Palindrome
+
+[Description](https://www.hackerrank.com/challenges/richie-rich/problem)
+
+file: C++ [highest_value_palindrome.cpp](highest_value_palindrome.cpp)
