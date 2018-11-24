@@ -188,3 +188,8 @@ public class Solution {
         
     }
 ```
+
+###### Counting Sort 3
+[Description](https://www.hackerrank.com/challenges/countingsort3/problem)
+
+file: Java [CountingSort.java](CountingSort.java)
