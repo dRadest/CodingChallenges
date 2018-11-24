@@ -140,3 +140,8 @@ file: Java [QuickSort.java](QuickSort.java)
 [Description](https://www.hackerrank.com/challenges/quicksort3/problem)
 
 file: Java [QuickSortInPlace.java](QuickSortInPlace.java)
+
+###### Running Time of QuickSort
+[Description](https://www.hackerrank.com/challenges/quicksort4/problem)
+
+file: C++ [running_time_of_quicksort.cpp](running_time_of_quicksort.cpp)
