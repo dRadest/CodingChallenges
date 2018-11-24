@@ -102,5 +102,8 @@ static int runningTime(int[] arr) {
 }
 ```
 
+###### Insertion Sort Advanced Analysis
+[Description](https://www.hackerrank.com/challenges/insertion-sort/problem)
 
+file: C++ [insertion_sort_advanced_analysis.cpp](insertion_sort_advanced_analysis.cpp)
 
