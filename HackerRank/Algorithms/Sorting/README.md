@@ -135,3 +135,8 @@ static int[] quickSort(int[] arr) {
 [Description](https://www.hackerrank.com/challenges/quicksort2/problem)
 
 file: Java [QuickSort.java](QuickSort.java)
+
+###### QuickSort In-Place
+[Description](https://www.hackerrank.com/challenges/quicksort3/problem)
+
+file: Java [QuickSortInPlace.java](QuickSortInPlace.java)

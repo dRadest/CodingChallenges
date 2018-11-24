@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 public class Solution {
 
-public Solution() {}
+public class Solution() {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -67,3 +67,4 @@ public Solution() {}
 		System.out.print(Integer.toString(element) + " ");
 	}
 }
+
