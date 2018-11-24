@@ -81,5 +81,26 @@ public static void insertionSort(int[] A){
 }
 ```
 
+###### Running Time of Algorithms
+[Description](https://www.hackerrank.com/challenges/runningtime/problem)
+
+Java solution
+```java
+static int runningTime(int[] arr) {
+    int nShifts = 0;
+    for(int i = 1; i < arr.length; i++){
+        int value = arr[i];
+        int j = i - 1;
+        while(j >= 0 && arr[j] > value){
+            arr[j + 1] = arr[j];
+            nShifts++;
+            j = j - 1;
+        }
+        arr[j + 1] = value;
+    }
+    return nShifts;
+}
+```
+
 
 
