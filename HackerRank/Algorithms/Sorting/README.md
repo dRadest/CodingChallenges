@@ -193,3 +193,8 @@ public class Solution {
 [Description](https://www.hackerrank.com/challenges/countingsort3/problem)
 
 file: Java [CountingSort.java](CountingSort.java)
+
+###### The Full Counting Sort
+[Description](https://www.hackerrank.com/challenges/countingsort4/problem)
+
+file: Java [TheFullCountingSort.java](TheFullCountingSort.java)
