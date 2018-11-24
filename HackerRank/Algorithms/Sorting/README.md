@@ -145,3 +145,46 @@ file: Java [QuickSortInPlace.java](QuickSortInPlace.java)
 [Description](https://www.hackerrank.com/challenges/quicksort4/problem)
 
 file: C++ [running_time_of_quicksort.cpp](running_time_of_quicksort.cpp)
+
+#### Counting Sort Challenges
+###### Counting Sort 1
+[Description](https://www.hackerrank.com/challenges/countingsort1/problem)
+
+Java solution
+```java
+static int[] countingSort(int[] arr) {
+    int[] a = new int[100];
+    for(int i = 0; i<arr.length; i++){
+        a[arr[i]]++;
+    }
+    return a;
+}
+```
+
+###### Counting Sort 2
+[Description](https://www.hackerrank.com/challenges/countingsort2/problem)
+
+Java Solution
+```java
+public class Solution {
+    static int num;
+    public static void main(String[] args) {
+        Scanner se=new Scanner(System.in);
+        int n=se.nextInt();
+        int ar[]=new int[n];
+        int num[]=new int[n];
+        int max=0;
+        for(int i=0;i<n;i++){
+            ar[i]=se.nextInt();
+            if(ar[i]>max) max=ar[i];
+            num[ar[i]]++;   
+            }
+         for(int i=0;i<=max;i++){
+            for(int j=0;j<num[i];j++){
+              System.out.print(i+" ");  
+            }        
+            }
+        }
+        
+    }
+```
