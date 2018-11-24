@@ -107,3 +107,31 @@ static int runningTime(int[] arr) {
 
 file: C++ [insertion_sort_advanced_analysis.cpp](insertion_sort_advanced_analysis.cpp)
 
+#### Quick Sort Challenges
+###### QuickSort 1 - Partition
+[Description](https://www.hackerrank.com/challenges/quicksort1/problem)
+
+```java
+static int[] quickSort(int[] arr) {
+        int temp=0;
+        int pivot=arr[0];
+        int pIndex=arr.length-1;
+        for(int i=pIndex;i>0;i--){
+            if(arr[i]>=pivot){
+                temp=arr[i];
+                arr[i]=arr[pIndex];
+                arr[pIndex]=temp;
+                pIndex--;
+            }
+        }
+        temp=arr[pIndex];
+        arr[pIndex]=arr[0];
+        arr[0]=temp;
+        return arr;
+}
+```
+
+###### QuickSort 2 - Sorting
+[Description](https://www.hackerrank.com/challenges/quicksort2/problem)
+
+file: Java [QuickSort.java](QuickSort.java)
