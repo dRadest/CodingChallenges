@@ -20,3 +20,34 @@ static int[] icecreamParlor(int m, int[] arr) {
     return ans;
 }
 ```
+
+### Missing Numbers
+[Description]()
+
+Java solution
+```java
+public static void main(String[] args) {
+    //read in the data
+	int[] a = new int[10001]; //initialized with 0's
+	Scanner in = new Scanner(System.in);
+	int n = in.nextInt();
+	//readin in list A
+	for(int i=0; i<n; i++) {
+		a[in.nextInt()]--;
+	}
+	int m = in.nextInt();
+	for(int i=0; i<m; i++) {
+		a[in.nextInt()]++;
+	}
+	in.close();
+	
+	//print out all the indexes where value is greater than 0
+	for (int i = 0; i < 10001; i++) {
+		if(a[i] > 0)
+			System.out.print(i + " ");
+	}
+}
+```
+Java solution using HashMap
+
+file: Java [MissingNumbers.java](MissingNumbers.java) 
