@@ -198,3 +198,9 @@ file: Java [CountingSort.java](CountingSort.java)
 [Description](https://www.hackerrank.com/challenges/countingsort4/problem)
 
 file: Java [TheFullCountingSort.java](TheFullCountingSort.java)
+
+#### Other Challenges
+###### Fraudulent Activity Notification
+[Description](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem)
+
+file: Java [FraudulentActivityNotification.java](FraudulentActivityNotification.java)
