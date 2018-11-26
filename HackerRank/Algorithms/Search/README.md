@@ -22,7 +22,7 @@ static int[] icecreamParlor(int m, int[] arr) {
 ```
 
 ### Missing Numbers
-[Description]()
+[Description](https://www.hackerrank.com/challenges/missing-numbers/problem)
 
 Java solution
 ```java
@@ -51,3 +51,8 @@ public static void main(String[] args) {
 Java solution using HashMap
 
 file: Java [MissingNumbers.java](MissingNumbers.java) 
+
+### Sherlock And Array
+[Description](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
+
+file: Java[SherlockAndArray.java](SherlockAndArray.java)
