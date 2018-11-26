@@ -61,3 +61,8 @@ file: Java [SherlockAndArray.java](SherlockAndArray.java)
 [Description](https://www.hackerrank.com/challenges/hackerland-radio-transmitters/problem)
 
 file: Java [HackerlandRadioTransmitters.java](HackerlandRadioTransmitters.java)
+
+### Minimum Loss
+[Description](https://www.hackerrank.com/challenges/minimum-loss/problem)
+
+file: Java [MinimumLoss.java](MinimumLoss.java)
