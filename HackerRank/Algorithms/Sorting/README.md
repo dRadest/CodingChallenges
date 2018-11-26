@@ -208,4 +208,6 @@ file: Java [FraudulentActivityNotification.java](FraudulentActivityNotification.
 ###### Lily's Homework
 [Description](https://www.hackerrank.com/challenges/lilys-homework/problem)
 
+GeeksforGeeks Minimum number of swaps required to sort the array [article](https://www.geeksforgeeks.org/minimum-number-swaps-required-sort-array/) (fails 3/12 test cases)
+
 file: Java [LilysHomework.java](LilysHomework.java)
