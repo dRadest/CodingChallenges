@@ -55,4 +55,9 @@ file: Java [MissingNumbers.java](MissingNumbers.java)
 ### Sherlock And Array
 [Description](https://www.hackerrank.com/challenges/sherlock-and-array/problem)
 
-file: Java[SherlockAndArray.java](SherlockAndArray.java)
+file: Java [SherlockAndArray.java](SherlockAndArray.java)
+
+### Hackerland Radio Transmitters
+[Description](https://www.hackerrank.com/challenges/hackerland-radio-transmitters/problem)
+
+file: Java [HackerlandRadioTransmitters.java](HackerlandRadioTransmitters.java)
