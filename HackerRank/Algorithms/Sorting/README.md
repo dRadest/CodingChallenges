@@ -204,3 +204,8 @@ file: Java [TheFullCountingSort.java](TheFullCountingSort.java)
 [Description](https://www.hackerrank.com/challenges/fraudulent-activity-notifications/problem)
 
 file: Java [FraudulentActivityNotification.java](FraudulentActivityNotification.java)
+
+###### Lily's Homework
+[Description](https://www.hackerrank.com/challenges/lilys-homework/problem)
+
+file: Java [LilysHomework.java](LilysHomework.java)
