@@ -73,3 +73,8 @@ file: Java [MinimumLoss.java](MinimumLoss.java)
 file: Java [ConnectedCellsInAGrid.java](ConnectedCellsInAGrid.java)
 
 code source: GeeksforGeeks [Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
+
+### Gena Playing Hanoi
+[Description](https://www.hackerrank.com/challenges/gena/problem)
+
+file: C++ [gena_playing_hanoi.cpp](gena_playing_hanoi.cpp)
