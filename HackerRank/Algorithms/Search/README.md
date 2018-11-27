@@ -66,3 +66,10 @@ file: Java [HackerlandRadioTransmitters.java](HackerlandRadioTransmitters.java)
 [Description](https://www.hackerrank.com/challenges/minimum-loss/problem)
 
 file: Java [MinimumLoss.java](MinimumLoss.java)
+
+### Connected Cells In A Grid
+[Description](https://www.hackerrank.com/challenges/connected-cell-in-a-grid/problem)
+
+file: Java [ConnectedCellsInAGrid.java](ConnectedCellsInAGrid.java)
+
+code source: GeeksforGeeks [Find the number of islands](https://www.geeksforgeeks.org/find-number-of-islands/)
