@@ -6,3 +6,14 @@ GeeksforGeeks [Graph DS and Algorithms](https://www.geeksforgeeks.org/graph-data
 [Description](https://www.hackerrank.com/challenges/journey-to-the-moon/problem)
 
 file: Java [JourneyToTheMoon.java](JourneyToTheMoon.java)
+
+### Even Tree
+[Description](https://www.hackerrank.com/challenges/even-tree/problem)
+
+file: 
+
+Java [EvenTree.java](EvenTree.java)
+
+C++ [even_tree.cpp](even_tree.cpp)
+
+GeeksforGeeks [Maximum Edge Removal to Make Even Forest](https://www.geeksforgeeks.org/maximum-edge-removal-tree-make-even-forest/)
