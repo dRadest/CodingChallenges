@@ -33,3 +33,12 @@ file: Java [SpecialSubtree.java](SpecialSubtree.java)
 GeeksforGeeks [Prim](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
 
 TutorialsPoint [Prim](https://www.tutorialspoint.com/data_structures_algorithms/prims_spanning_tree_algorithm.htm)
+
+### Bradth First Search: Shortest Reach
+[Description](https://www.hackerrank.com/challenges/bfsshortreach/problem)
+
+file: Java [ShortestReach.java](ShortestReach.java)
+
+GeeksforGeeks [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
+
+TutorialsPoint [BFS](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm)
