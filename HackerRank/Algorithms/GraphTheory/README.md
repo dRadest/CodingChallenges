@@ -24,3 +24,12 @@ GeeksforGeeks [Maximum Edge Removal to Make Even Forest](https://www.geeksforgee
 file: Java [ReallySpecialSubtree.java](ReallySpecialSubtree.java)
 
 GeeksforGeeks [Kruskal](https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/)
+
+### Prim's(MST): Special Subtree
+[Description](https://www.hackerrank.com/challenges/primsmstsub/problem)
+
+file: Java [SpecialSubtree.java](SpecialSubtree.java)
+
+GeeksforGeeks [Prim](https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/)
+
+TutorialsPoint [Prim](https://www.tutorialspoint.com/data_structures_algorithms/prims_spanning_tree_algorithm.htm)
