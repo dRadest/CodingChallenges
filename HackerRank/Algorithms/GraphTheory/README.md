@@ -42,3 +42,12 @@ file: Java [ShortestReach.java](ShortestReach.java)
 GeeksforGeeks [BFS](https://www.geeksforgeeks.org/breadth-first-search-or-bfs-for-a-graph/)
 
 TutorialsPoint [BFS](https://www.tutorialspoint.com/data_structures_algorithms/breadth_first_traversal.htm)
+
+### Dijkstra: Shortest Reach 2
+[Desrciption](https://www.hackerrank.com/challenges/dijkstrashortreach/problem)
+
+files: 
+
+Java [Dijkstra.java](Dijkstra.java) TC7 fails due to timeout
+
+Java [ShortestReach2.java](ShortestReach2.java)
