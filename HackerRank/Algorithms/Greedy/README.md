@@ -12,3 +12,8 @@ file: Java [MarkAndToys.java](MarkAndToys.java)
 [Description](https://www.hackerrank.com/challenges/jim-and-the-orders/problem)
 
 file: Java [JimAndTheOrders.java](JimAndTheOrders.java)
+
+### Greedy Florist
+[Description](https://www.hackerrank.com/challenges/greedy-florist/problem)
+
+file: Java [GreedyFlorist.java](GreedyFlorist.java)
