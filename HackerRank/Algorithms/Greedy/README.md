@@ -22,3 +22,8 @@ file: Java [GreedyFlorist.java](GreedyFlorist.java)
 [Description](https://www.hackerrank.com/challenges/cloudy-day/problem)
 
 file: Java [CloudyDay.java](CloudyDay.java)
+
+### Chief Hopper
+[Description](https://www.hackerrank.com/challenges/chief-hopper/problem)
+
+file: Java [ChiefHopper.java](ChiefHopper.java)
