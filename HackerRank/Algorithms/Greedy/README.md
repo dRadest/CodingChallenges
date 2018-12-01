@@ -17,3 +17,8 @@ file: Java [JimAndTheOrders.java](JimAndTheOrders.java)
 [Description](https://www.hackerrank.com/challenges/greedy-florist/problem)
 
 file: Java [GreedyFlorist.java](GreedyFlorist.java)
+
+### Cloudy Day
+[Description](https://www.hackerrank.com/challenges/cloudy-day/problem)
+
+file: Java [CloudyDay.java](CloudyDay.java)
