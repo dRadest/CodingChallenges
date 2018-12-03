@@ -27,3 +27,8 @@ file: Java [CloudyDay.java](CloudyDay.java)
 [Description](https://www.hackerrank.com/challenges/chief-hopper/problem)
 
 file: Java [ChiefHopper.java](ChiefHopper.java)
+
+### Team Formation
+[Description](https://www.hackerrank.com/challenges/team-formation/problem)
+
+file: C++ [team_formation.cpp](team_formation.cpp)
