@@ -18,3 +18,8 @@ Java [CoinChange.java](CoinChange.java) iterative
 
 C++ [coing_change.cpp](coin_change.cpp) recursive
 
+### Fibonacci Modified
+[Description](https://www.hackerrank.com/challenges/fibonacci-modified/problem)
+
+file: Java [FibonacciModified.java](FibonacciModified.java)
+
