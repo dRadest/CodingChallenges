@@ -23,3 +23,19 @@ C++ [coing_change.cpp](coin_change.cpp) recursive
 
 file: Java [FibonacciModified.java](FibonacciModified.java)
 
+### Fair Cut
+[Description](https://www.hackerrank.com/challenges/fair-cut/problem)
+
+file:
+
+C++ [fair_cut.cpp](fair_cut.cpp)
+
+C++ [fair_cut_ps.cpp](fair_cut_ps.cpp) problem setter's code
+
+### Maximum Subarray
+[Description](https://www.hackerrank.com/challenges/maxsubarray/problem)
+
+[Kadene's Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
+
+file: Java [MaximumSubarray.java](MaximumSubarray.java)
+
