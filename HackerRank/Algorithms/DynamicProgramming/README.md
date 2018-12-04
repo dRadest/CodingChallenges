@@ -43,3 +43,8 @@ file: Java [MaximumSubarray.java](MaximumSubarray.java)
 [Description](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem)
 
 file: Java [LongestCommonSubsequence.java](LongestCommonSubsequence.java)
+
+### Knapsack
+[Description](https://www.hackerrank.com/challenges/unbounded-knapsack/problem)
+
+file: Java [Knapsack.java](Knapsack.java)
