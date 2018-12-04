@@ -32,10 +32,14 @@ C++ [fair_cut.cpp](fair_cut.cpp)
 
 C++ [fair_cut_ps.cpp](fair_cut_ps.cpp) problem setter's code
 
-### Maximum Subarray
+### The Maximum Subarray
 [Description](https://www.hackerrank.com/challenges/maxsubarray/problem)
 
 [Kadene's Algorithm](https://en.wikipedia.org/wiki/Maximum_subarray_problem)
 
 file: Java [MaximumSubarray.java](MaximumSubarray.java)
 
+### The Longest Common Subsequence
+[Description](https://www.hackerrank.com/challenges/dynamic-programming-classics-the-longest-common-subsequence/problem)
+
+file: Java [LongestCommonSubsequence.java](LongestCommonSubsequence.java)
