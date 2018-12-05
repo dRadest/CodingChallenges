@@ -8,7 +8,12 @@ file: C++ [lena_sort.cpp](lena_sort.cpp)
 
 file: Java [ConstructTheArray.java](ConstructTheArray.java)
 
-### Game Array
+### Gaming Array
 [Description](https://www.hackerrank.com/challenges/an-interesting-game-1/problem)
 
 file: Java [GameArray.java](GameArray.java)
+
+### New Year Chaos
+[Description](https://www.hackerrank.com/challenges/new-year-chaos/problem)
+
+file: Java [NewYearChaos.java](NewYearChaos.java)
