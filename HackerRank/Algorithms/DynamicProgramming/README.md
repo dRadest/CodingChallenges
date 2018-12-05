@@ -48,3 +48,10 @@ file: Java [LongestCommonSubsequence.java](LongestCommonSubsequence.java)
 [Description](https://www.hackerrank.com/challenges/unbounded-knapsack/problem)
 
 file: Java [Knapsack.java](Knapsack.java)
+
+### Travel Around The World
+[Description](https://www.hackerrank.com/challenges/travel-around-the-world/problem)
+
+[stackoverflow](https://stackoverflow.com/questions/24408371/dynamic-programming-find-possible-ways-to-reach-destination)
+
+file: Java [TravelAroundTheWorld.java](TravelAroundTheWorld.java)
