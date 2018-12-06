@@ -7,3 +7,8 @@ file: Java [ThePowerSum.java](ThePowerSum.java)
 [Description](https://www.hackerrank.com/challenges/recursive-digit-sum/problem)
 
 file: Java [RecursiveDigitSum.java](RecursiveDigitSum.java)
+
+### Password Cracker
+[Description](https://www.hackerrank.com/challenges/password-cracker/problem)
+
+file: Java [PasswordCracker.java](PasswordCracker.java)
