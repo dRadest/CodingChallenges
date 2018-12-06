@@ -12,3 +12,8 @@ file: Java [RecursiveDigitSum.java](RecursiveDigitSum.java)
 [Description](https://www.hackerrank.com/challenges/password-cracker/problem)
 
 file: Java [PasswordCracker.java](PasswordCracker.java)
+
+### Crossword Puzzle
+[Description](https://www.hackerrank.com/challenges/crossword-puzzle/problem)
+
+file: C++ [crossword_puzzle.cpp](crossword_puzzle.cpp) 
