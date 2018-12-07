@@ -1,6 +1,7 @@
 # Solutions
 - Easy
 	* [A Chessboard Game](#a-chessboard-game)
+	- [Game of Stones](#game-of-stones)
 * Medium
 
 The Economics Detective
@@ -22,3 +23,18 @@ Khan Academy
 
 file: Java [Chessboard.java](Chessboard.java) w/ a trick
 
+### Game of Stones
+[Description](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
+
+_Solution_
+
+because of reaccuring pattern this simple trick works
+```java
+static String gameOfStones(int n) {
+    if(n%7 > 1){
+        return "First";
+    }
+    return "Second";
+}
+```
+file: Java [GameOfStones.java](GameOfStones.java)
