@@ -6,7 +6,9 @@
 	- [Introduction to Nim Game](#introduction-to-nim-game)
 	- [Misere Nim](#misere-nim)
 	- [Nimble Game](#nimble-game)
+	- [Poker Nim](#poker-nim)
 * Medium
+	- [Zero Move Nim](#zero-move-nim)
 
 The Economics Detective
 
@@ -23,6 +25,10 @@ Khan Academy
 [gametheory101.com](http://gametheory101.com/)
 
 Game Theory [cmu notes](http://www.cs.cmu.edu/afs/cs/academic/class/15859-f01/www/notes/comb.pdf)
+
+GeeksforGeeks [Grundy numbers](https://www.geeksforgeeks.org/combinatorial-game-theory-set-3-grundy-numbersnimbers-and-mex/) and [Sprague-Grundy Theorem](https://www.geeksforgeeks.org/combinatorial-game-theory-set-4-sprague-grundy-theorem/)
+
+Wikipedia [Sprague-Grundy Theorem](https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem)
 
 
 ### A Chessboard Game
@@ -82,3 +88,17 @@ file: Java [MisereNim.java](MisereNim.java)
 >After you reduce the game to standard Nim, you can find the XOR sum to solve the game. Notice that square _i_ has _ci_ stones of size _i_. So we can just take one instance of size pile _i_ if _ci_ is odd, as XOR sum of even number of identical elements is zero. So, no matter how large the value of _ci_ is, you can easily find the XOR sum by checking if _ci_ is even or odd.
 
 file: Java [NimbleGame.java](NimbleGame.java)
+
+### Poker Nim
+[Description](https://www.hackerrank.com/challenges/poker-nim-1/problem)
+
+>This problem is identical to standard nim game. If the current player is in winning position and the opponent adds some chips, the current player can remove those chips in his move and remain in winning position. As the current player can mirror his opponent's "add" move all the time, that move has no value. 
+
+file: Java [Pokernim.java](PokerNim.java)
+
+### Zero Move Nim
+[Description](https://www.hackerrank.com/challenges/zero-move-nim/problem)
+
+GeeksforGeeks [Variaton in Nim](https://www.geeksforgeeks.org/variation-nim-game/)
+
+file: Java [ZeroMoveNim.java](ZeroMoveNim.java)
