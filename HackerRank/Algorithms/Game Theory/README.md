@@ -2,6 +2,7 @@
 - Easy
 	* [A Chessboard Game](#a-chessboard-game)
 	- [Game of Stones](#game-of-stones)
+	- [Tower Breaker](#tower-breaker)
 * Medium
 
 The Economics Detective
@@ -17,6 +18,12 @@ Khan Academy
 [Introduction to Game Theory](http://home.ku.edu.tr/~lkockesen/teaching/econ333/lectnotes/uggame.pdf) KU, NYU
 
 [gametheory101.com](http://gametheory101.com/)
+
+Game Theory [cmu notes](http://www.cs.cmu.edu/afs/cs/academic/class/15859-f01/www/notes/comb.pdf)
+
+https://www.geeksforgeeks.org/introduction-to-combinatorial-game-theory/
+
+https://www.geeksforgeeks.org/combinatorial-game-theory-set-2-game-nim/
 
 ### A Chessboard Game
 [Directions](https://www.hackerrank.com/challenges/a-chessboard-game-1/problem)
@@ -40,6 +47,6 @@ static String gameOfStones(int n) {
 file: Java [GameOfStones.java](GameOfStones.java)
 
 ### Tower Breaker
-[Description]
+[Description](https://www.hackerrank.com/challenges/tower-breakers-1/problem)
 
 file: Java [TowerBreaker.java](TowerBreaker.java)
