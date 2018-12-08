@@ -5,6 +5,7 @@
 	- [Tower Breaker](#tower-breaker)
 	- [Introduction to Nim Game](#introduction-to-nim-game)
 	- [Misere Nim](#misere-nim)
+	- [Nimble Game](#nimble-game)
 * Medium
 
 The Economics Detective
@@ -69,6 +70,15 @@ file: Java [IntroToNimGame.java](IntroToNimGame.java)
 ### Misere Nim
 [Description](https://www.hackerrank.com/challenges/misere-nim-1/problem)
 
->Misère Nim is exactly like the standard Nim game, except for one critical difference. If the size of every pile is , then we need to treat it as a special case where we count the number of piles. If the count is even, then the first player will win; if the count is odd, then the first player will lose.
+>Misère Nim is exactly like the standard Nim game, except for one critical difference. If the size of every pile is _1_, then we need to treat it as a special case where we count the number of piles. If the count is even, then the first player will win; if the count is odd, then the first player will lose.
 
 file: Java [MisereNim.java](MisereNim.java)
+
+### Nimble Game
+[Description](https://www.hackerrank.com/challenges/nimble-game-1/problem)
+
+>This is a variation on the standard Nim game. If a coin is located at the _i-th_ square, it can go to squares at index _0_ to _i-1_. So there are possibilities _i_ for every coin in each square. So, you can think of it just as you would think of a pile of _i_ stones. Moving a coin to the left is just like taking a stone from a stone pile.
+
+>After you reduce the game to standard Nim, you can find the XOR sum to solve the game. Notice that square _i_ has _ci_ stones of size _i_. So we can just take one instance of size pile _i_ if _ci_ is odd, as XOR sum of even number of identical elements is zero. So, no matter how large the value of _ci_ is, you can easily find the XOR sum by checking if _ci_ is even or odd.
+
+file: Java [NimbleGame.java](NimbleGame.java)
