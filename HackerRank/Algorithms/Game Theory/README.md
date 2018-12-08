@@ -9,6 +9,7 @@
 	- [Poker Nim](#poker-nim)
 * Medium
 	- [Zero Move Nim](#zero-move-nim)
+	- [Alice And Bob's Silly Game](#alice-and-bobs-silly-game)
 
 The Economics Detective
 
@@ -102,3 +103,8 @@ file: Java [Pokernim.java](PokerNim.java)
 GeeksforGeeks [Variaton in Nim](https://www.geeksforgeeks.org/variation-nim-game/)
 
 file: Java [ZeroMoveNim.java](ZeroMoveNim.java)
+
+### Alice And Bob's Silly Game
+[Description](https://www.hackerrank.com/challenges/alice-and-bobs-silly-game/problem)
+
+file: Java [AliceAndBobSillyGame.java](AliceAndBobSillyGame.java)
