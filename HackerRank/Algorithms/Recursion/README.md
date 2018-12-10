@@ -17,3 +17,8 @@ file: Java [PasswordCracker.java](PasswordCracker.java)
 [Description](https://www.hackerrank.com/challenges/crossword-puzzle/problem)
 
 file: C++ [crossword_puzzle.cpp](crossword_puzzle.cpp) 
+
+### Bowling Pins
+[Description](https://www.hackerrank.com/challenges/bowling-pins/problem)
+
+file: Java [BowlingPins.java](BowlingPins.java)
