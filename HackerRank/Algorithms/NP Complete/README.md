@@ -167,4 +167,10 @@ _Given a list of cities and the distances between each pair of cities, what is t
 	* Cambridge University
 		+ [Approximation Algorithms and TSP](https://www.cl.cam.ac.uk/teaching/1516/AdvAlgo/tsp.pdf)
 
+## Solutions
+#### Walking The Approximate Longest Path
+[Description](https://www.hackerrank.com/challenges/walking-the-approximate-longest-path/problem)
+
+file: Java [WalkingTheApproximateLongestPath.java](WalkingTheApproximateLongestPath.java)
+
 
