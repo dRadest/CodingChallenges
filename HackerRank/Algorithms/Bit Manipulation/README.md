@@ -42,3 +42,10 @@ files:
 * Java [FlippingBits.java](FlippingBits.java)
 * C [flipping_bits.c](flipping_bits.c)
 
+#### Counter Game
+[Description](https://www.hackerrank.com/challenges/counter-game/problem)
+
+file:
+
+* Java [CounterGame.java](CounterGame.java)
+
