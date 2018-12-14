@@ -25,3 +25,12 @@ files:
 
 * Java [MaximizingXor.java](MaximizingXor.java)
 * C [maximizing_xor.c](maximizing_xor.c) brute force
+
+#### Sum vs XOR
+[Description](https://www.hackerrank.com/challenges/sum-vs-xor/problem)
+
+files:
+
+* Java [SumVsXor.java](SumVsXor.java)
+* C [sum_vs_xor.c](sum_vs_xor.c)
+
