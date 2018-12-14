@@ -13,8 +13,15 @@
 #### Lonely Integer
 [Description](https://www.hackerrank.com/challenges/lonely-integer/problem)
 
-file:
+files:
 
 * Java [LonelyInteger.java](LonelyInteger.java)
 * C [lonely_integer.c](lonely_integer.c)
 
+#### Maximizing XOR
+[Description](https://www.hackerrank.com/challenges/maximizing-xor/problem)
+
+files:
+
+* Java [MaximizingXor.java](MaximizingXor.java)
+* C [maximizing_xor.c](maximizing_xor.c) brute force
