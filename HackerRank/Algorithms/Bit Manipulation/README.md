@@ -55,3 +55,10 @@ file:
 file:
 
 * Java [XorSequence.java](XorSequence.java)
+
+#### The Great Xor
+[Description](https://www.hackerrank.com/challenges/the-great-xor/problem)
+
+file:
+
+* Java [GreatXor.java](GreatXor.java)
