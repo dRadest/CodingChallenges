@@ -34,3 +34,11 @@ files:
 * Java [SumVsXor.java](SumVsXor.java)
 * C [sum_vs_xor.c](sum_vs_xor.c)
 
+#### Flipping Bits
+[Description](https://www.hackerrank.com/challenges/flipping-bits/problem)
+
+files:
+
+* Java [FlippingBits.java](FlippingBits.java)
+* C [flipping_bits.c](flipping_bits.c)
+
