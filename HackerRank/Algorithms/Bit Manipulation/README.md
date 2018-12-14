@@ -49,3 +49,9 @@ file:
 
 * Java [CounterGame.java](CounterGame.java)
 
+#### Xor Sequence
+[Description](https://www.hackerrank.com/challenges/xor-se/problem)
+
+file:
+
+* Java [XorSequence.java](XorSequence.java)
