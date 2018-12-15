@@ -85,3 +85,15 @@ file:
 file: 
 
 * Java [YetAnotherMiniMaxProblem.java](YetAnotherMiniMaxProblem.java)
+
+#### AND Product
+[Description](https://www.hackerrank.com/challenges/and-product/problem)
+
+useful:
+
+* GFG [next power of two](https://www.geeksforgeeks.org/smallest-power-of-2-greater-than-or-equal-to-n/)
+* Stanford [Bit Twiddling Hacks](https://graphics.stanford.edu/~seander/bithacks.html#RoundUpPowerOf2)
+
+file:
+
+* Java [AndProduct.java](AndProduct.java)
