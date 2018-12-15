@@ -62,3 +62,19 @@ file:
 file:
 
 * Java [GreatXor.java](GreatXor.java)
+
+#### Sansa And XOR
+[Description](https://www.hackerrank.com/challenges/sansa-and-xor/problem)
+
+Stackoverflow [solution](https://stackoverflow.com/questions/41586750/xor-on-contiguous-subarrays-of-an-array) to this problem
+
+file:
+
+* Java [SansaAndXor.java](SansaAndXor.java)
+
+#### Cipher
+[Description](https://www.hackerrank.com/challenges/cipher/problem)
+
+file:
+
+* Java [Cipher.java](Cipher.java)
