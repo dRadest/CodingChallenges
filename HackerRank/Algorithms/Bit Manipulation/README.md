@@ -78,3 +78,10 @@ file:
 file:
 
 * Java [Cipher.java](Cipher.java)
+
+#### Yet Another Minimax Problem
+[Description](https://www.hackerrank.com/challenges/yet-another-minimax-problem/problem)
+
+file: 
+
+* Java [YetAnotherMiniMaxProblem.java](YetAnotherMiniMaxProblem.java)
