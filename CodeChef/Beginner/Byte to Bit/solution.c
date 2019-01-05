@@ -23,11 +23,11 @@ int main(){
 		int left = n - cycles * 26;
 		double result = pow(2, cycles);
 		if(left >= 10){
-			printf("0 0 %.0f", result);
+			printf("0 0 %.0f\n", result);
 		}else if(left >= 2){
-			printf("0 %.0f 0", result);
+			printf("0 %.0f 0\n", result);
 		}else{
-			printf("%.0f 0 0", result);
+			printf("%.0f 0 0\n", result);
 		}
 	}
 	return 0;
